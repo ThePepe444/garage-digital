@@ -25,22 +25,20 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const gtmId = process.env.NEXT_PUBLIC_GTM_ID
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID || 'GTM-P6ZK5W7G'
 
   return (
     <html lang="es">
       <body className={inter.className}>
-        {gtmId && <GoogleTagManager gtmId={gtmId} />}
-        {gtmId && (
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
-              height="0"
-              width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
-            />
-          </noscript>
-        )}
+        <GoogleTagManager gtmId={gtmId} />
+        <noscript>
+          <iframe
+            src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          />
+        </noscript>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">
