@@ -98,12 +98,12 @@ export default function CarComparisons() {
                   </div>
                   <div className="flex items-center text-gray-600">
                     <Zap className="w-4 h-4 mr-2 text-primary-500" />
-                    <span>{comparison.metrics.fuelEconomy || comparison.metrics.range || comparison.metrics.horsepower}</span>
+                    <span>{comparison.metrics.fuelEconomy || (comparison.metrics as any).range || (comparison.metrics as any).horsepower}</span>
                   </div>
-                  {comparison.metrics.reliability && (
+                  {(comparison.metrics as any).reliability && (
                     <div className="flex items-center text-gray-600">
                       <Shield className="w-4 h-4 mr-2 text-primary-500" />
-                      <span>{comparison.metrics.reliability}</span>
+                      <span>{(comparison.metrics as any).reliability}</span>
                     </div>
                   )}
                 </div>
