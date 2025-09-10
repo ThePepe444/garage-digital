@@ -1,30 +1,48 @@
 import Link from 'next/link'
-import { ArrowRight, TrendingUp, Clock, Users, Zap } from 'lucide-react'
+import { ArrowRight, TrendingUp, Clock, Users, Zap, Car, Wrench, BarChart3 } from 'lucide-react'
+import { getLatestNews } from '@/data/content'
 
 export default function Hero() {
-  const latestNews = [
-    {
-      id: 1,
-      title: 'Nissan Versa 2024: El Auto Más Vendido en México',
-      category: 'Reseña',
-      time: '2 horas',
-      trending: true
-    },
-    {
-      id: 2,
-      title: 'Tips para Proteger tu Auto del Clima Mexicano',
-      category: 'Mecánica',
-      time: '4 horas',
-      trending: false
-    },
-    {
-      id: 3,
-      title: 'Comparación: Jetta vs Civic en Carreteras Mexicanas',
-      category: 'Comparación',
-      time: '6 horas',
-      trending: true
+  const latestNews = getLatestNews(3)
+  
+  const getTypeIcon = (type: string) => {
+    switch (type) {
+      case 'review':
+        return <Car className="w-4 h-4" />
+      case 'tip':
+        return <Wrench className="w-4 h-4" />
+      case 'comparison':
+        return <BarChart3 className="w-4 h-4" />
+      default:
+        return <TrendingUp className="w-4 h-4" />
     }
-  ]
+  }
+  
+  const getTypeLabel = (type: string) => {
+    switch (type) {
+      case 'review':
+        return 'Reseña'
+      case 'tip':
+        return 'Tips'
+      case 'comparison':
+        return 'Comparación'
+      default:
+        return 'Noticia'
+    }
+  }
+  
+  const getTimeAgo = (dateString: string) => {
+    const date = new Date(dateString)
+    const now = new Date()
+    const diffInHours = Math.floor((now.getTime() - date.getTime()) / (1000 * 60 * 60))
+    
+    if (diffInHours < 24) {
+      return `${diffInHours} horas`
+    } else {
+      const diffInDays = Math.floor(diffInHours / 24)
+      return `${diffInDays} días`
+    }
+  }
 
   return (
     <section className="hero-gradient text-white py-16 relative overflow-hidden">
@@ -85,38 +103,59 @@ export default function Hero() {
               <div className="space-y-4">
                 {latestNews.map((news) => (
                   <Link
-                    key={news.id}
-                    href={`/news/${news.id}`}
+                    key={`${news.type}-${news.id}`}
+                    href={news.url}
                     className="block p-4 rounded-lg bg-gti-black-800/50 hover:bg-gti-black-700/50 transition-all duration-200 border border-gti-red-500/20 hover:border-gti-red-500/40"
                   >
                     <div className="flex items-start justify-between mb-2">
-                      <span className="news-badge text-xs px-2 py-1 rounded">
-                        {news.category}
-                      </span>
-                      {news.trending && (
-                        <div className="flex items-center space-x-1 text-gti-red-500">
-                          <TrendingUp className="w-3 h-3" />
-                          <span className="text-xs font-bold">TRENDING</span>
-                        </div>
-                      )}
+                      <div className="flex items-center space-x-2">
+                        {getTypeIcon(news.type)}
+                        <span className="news-badge text-xs px-2 py-1 rounded">
+                          {getTypeLabel(news.type)}
+                        </span>
+                      </div>
+                      <div className="flex items-center space-x-1 text-gti-red-500">
+                        <TrendingUp className="w-3 h-3" />
+                        <span className="text-xs font-bold">NUEVO</span>
+                      </div>
                     </div>
                     <h3 className="text-white font-semibold text-sm mb-2 line-clamp-2">
                       {news.title}
                     </h3>
-                    <div className="flex items-center space-x-2 text-gray-400 text-xs">
-                      <Clock className="w-3 h-3" />
-                      <span>Hace {news.time}</span>
+                    <p className="text-gray-300 text-xs mb-2 line-clamp-2">
+                      {news.excerpt}
+                    </p>
+                    <div className="flex items-center justify-between text-gray-400 text-xs">
+                      <div className="flex items-center space-x-2">
+                        <Clock className="w-3 h-3" />
+                        <span>Hace {getTimeAgo(news.date)}</span>
+                      </div>
+                      <span className="text-gti-red-400">Por {news.author}</span>
                     </div>
                   </Link>
                 ))}
               </div>
 
-              <Link
-                href="/news"
-                className="block w-full mt-6 text-center text-gti-red-500 hover:text-gti-red-400 font-semibold text-sm transition-colors"
-              >
-                Ver todas las noticias →
-              </Link>
+              <div className="flex space-x-2 mt-6">
+                <Link
+                  href="/reviews"
+                  className="flex-1 text-center text-gti-red-500 hover:text-gti-red-400 font-semibold text-sm transition-colors"
+                >
+                  Ver Reseñas →
+                </Link>
+                <Link
+                  href="/tips"
+                  className="flex-1 text-center text-gti-red-500 hover:text-gti-red-400 font-semibold text-sm transition-colors"
+                >
+                  Ver Tips →
+                </Link>
+                <Link
+                  href="/comparisons"
+                  className="flex-1 text-center text-gti-red-500 hover:text-gti-red-400 font-semibold text-sm transition-colors"
+                >
+                  Ver Comparaciones →
+                </Link>
+              </div>
             </div>
           </div>
         </div>

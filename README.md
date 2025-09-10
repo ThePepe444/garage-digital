@@ -52,7 +52,41 @@ src/
 │   ├── LatestReviews.tsx # Últimas reseñas
 │   ├── CarComparisons.tsx # Comparaciones
 │   └── Newsletter.tsx   # Suscripción al newsletter
+└── data/
+    └── content.ts       # Sistema de noticias dinámicas
 ```
+
+## 🔄 Sistema de Noticias Dinámicas
+
+El sitio incluye un sistema automático que muestra las últimas noticias en la sección Hero:
+
+### Cómo Agregar Nuevo Contenido
+
+1. **Agregar Nueva Reseña/Tip/Comparación**:
+   - Crea la página correspondiente en `src/app/[tipo]/[id]/page.tsx`
+   - Agrega la entrada en `src/data/content.ts` en el array `latestNews`
+
+2. **Estructura de Entrada**:
+   ```typescript
+   {
+     id: 3,
+     title: 'Título del Artículo',
+     excerpt: 'Descripción breve...',
+     type: 'review' | 'tip' | 'comparison',
+     author: 'Emanuel P',
+     date: '2024-01-25', // Formato YYYY-MM-DD
+     category: 'Categoría',
+     image: '/images/imagen.jpg', // Opcional
+     url: '/reviews/3'
+   }
+   ```
+
+3. **Funcionalidades Automáticas**:
+   - ✅ Ordena por fecha (más recientes primero)
+   - ✅ Muestra las últimas 3 noticias en el Hero
+   - ✅ Categoriza por tipo con iconos
+   - ✅ Calcula tiempo transcurrido
+   - ✅ Enlaza directamente a las páginas
 
 ## 🎨 Personalización
 
