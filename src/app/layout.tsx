@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import GoogleAnalytics from '@/components/GoogleAnalytics'
+import GoogleTagManager from '@/components/GoogleTagManager'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,12 +25,22 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID
 
   return (
     <html lang="es">
       <body className={inter.className}>
-        {measurementId && <GoogleAnalytics measurementId={measurementId} />}
+        {gtmId && <GoogleTagManager gtmId={gtmId} />}
+        {gtmId && (
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            />
+          </noscript>
+        )}
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">

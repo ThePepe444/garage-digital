@@ -115,20 +115,21 @@ Los colores principales están definidos en `tailwind.config.ts`:
 ### Variables de Entorno
 Crea un archivo `.env.local` con:
 ```bash
-NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_GTM_ID=GTM-XXXXXXX
 NEXT_PUBLIC_SITE_URL=https://tu-sitio.netlify.app
 ```
 
-## 📊 Google Analytics y SEO
+## 📊 Google Tag Manager y SEO
 
-### Configuración de Google Analytics
-1. **Crea una cuenta en [Google Analytics](https://analytics.google.com/)**
-2. **Crea una propiedad** para tu sitio web
-3. **Obtén tu Measurement ID** (formato: G-XXXXXXXXXX)
+### Configuración de Google Tag Manager
+1. **Crea una cuenta en [Google Tag Manager](https://tagmanager.google.com/)**
+2. **Crea un contenedor** para tu sitio web
+3. **Obtén tu Container ID** (formato: GTM-XXXXXXX)
 4. **Agrega la variable de entorno:**
    ```bash
-   NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+   NEXT_PUBLIC_GTM_ID=GTM-XXXXXXX
    ```
+5. **Configura Google Analytics dentro de GTM** (más flexible)
 
 ### Google Search Console
 1. **Ve a [Google Search Console](https://search.google.com/search-console/)**
@@ -141,7 +142,8 @@ NEXT_PUBLIC_SITE_URL=https://tu-sitio.netlify.app
 - ✅ **Robots.txt** (`/robots.txt`)
 - ✅ **Meta tags** optimizados
 - ✅ **Open Graph** para redes sociales
-- ✅ **Google Analytics** integrado
+- ✅ **Google Tag Manager** integrado
+- ✅ **Noscript fallback** para GTM
 
 ## 📝 Scripts Disponibles
 
