@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,9 +25,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const measurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+
   return (
     <html lang="es">
       <body className={inter.className}>
+        {measurementId && <GoogleAnalytics measurementId={measurementId} />}
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">

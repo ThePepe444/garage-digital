@@ -107,15 +107,41 @@ Los colores principales están definidos en `tailwind.config.ts`:
 
 ## 🚀 Despliegue
 
-### Vercel (Recomendado)
-1. Conecta tu repositorio a Vercel
+### Netlify (Configurado)
+1. Conecta tu repositorio a Netlify
 2. El despliegue se realizará automáticamente
+3. Configura las variables de entorno en Netlify
 
-### Otras plataformas
+### Variables de Entorno
+Crea un archivo `.env.local` con:
 ```bash
-npm run build
-npm start
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_SITE_URL=https://tu-sitio.netlify.app
 ```
+
+## 📊 Google Analytics y SEO
+
+### Configuración de Google Analytics
+1. **Crea una cuenta en [Google Analytics](https://analytics.google.com/)**
+2. **Crea una propiedad** para tu sitio web
+3. **Obtén tu Measurement ID** (formato: G-XXXXXXXXXX)
+4. **Agrega la variable de entorno:**
+   ```bash
+   NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+   ```
+
+### Google Search Console
+1. **Ve a [Google Search Console](https://search.google.com/search-console/)**
+2. **Agrega tu propiedad** (URL de tu sitio)
+3. **Verifica la propiedad** usando el método HTML tag
+4. **Envía tu sitemap:** `https://tu-sitio.netlify.app/sitemap.xml`
+
+### SEO Incluido
+- ✅ **Sitemap automático** (`/sitemap.xml`)
+- ✅ **Robots.txt** (`/robots.txt`)
+- ✅ **Meta tags** optimizados
+- ✅ **Open Graph** para redes sociales
+- ✅ **Google Analytics** integrado
 
 ## 📝 Scripts Disponibles
 
