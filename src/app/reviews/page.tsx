@@ -1,0 +1,157 @@
+import Link from 'next/link'
+import { Star, ArrowRight, Car, Fuel, Gauge, MapPin, Calendar } from 'lucide-react'
+
+export default function ReviewsPage() {
+  const reviews = [
+    {
+      id: 1,
+      title: 'Nissan Versa 2024: El Sedán que Reta lo Establecido',
+      excerpt: 'Análisis completo del Nissan Versa 2024, el sedán más tecnológico y seguro de su segmento según Nissan México. Evaluamos sus tecnologías de seguridad avanzadas, diseño deportivo y conectividad inteligente.',
+      car: 'Nissan Versa 2024',
+      rating: 4.3,
+      price: '$289,900 MXN',
+      fuelEconomy: '18.5 km/l',
+      category: 'Sedán',
+      author: 'Emanuel P',
+      date: '2024-01-15',
+      location: 'CDMX',
+      dealer: 'Nissan México'
+    },
+    {
+      id: 2,
+      title: 'VW Jetta GLI 2025: La Máquina Deportiva Alemana',
+      excerpt: 'Análisis completo del Volkswagen Jetta GLI 2025, la versión deportiva de alto rendimiento que combina potencia, tecnología avanzada y diseño agresivo. Evaluamos su motor 2.0 TSI, transmisión DSG y características deportivas únicas.',
+      car: 'VW Jetta GLI 2025',
+      rating: 4.7,
+      price: '$589,900 MXN',
+      fuelEconomy: '16.2 km/l',
+      category: 'Sedán Deportivo',
+      image: '/images/jetta-gli-2025.jpg',
+      author: 'Emanuel P',
+      date: '2024-01-20',
+      location: 'CDMX',
+      dealer: 'Volkswagen México'
+    }
+  ]
+
+  const renderStars = (rating: number) => {
+    const stars = []
+    const fullStars = Math.floor(rating)
+    const hasHalfStar = rating % 1 !== 0
+
+    for (let i = 0; i < fullStars; i++) {
+      stars.push(
+        <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
+      )
+    }
+
+    if (hasHalfStar) {
+      stars.push(
+        <Star key="half" className="w-4 h-4 text-yellow-400 fill-current opacity-50" />
+      )
+    }
+
+    const emptyStars = 5 - Math.ceil(rating)
+    for (let i = 0; i < emptyStars; i++) {
+      stars.push(
+        <Star key={`empty-${i}`} className="w-4 h-4 text-gray-300" />
+      )
+    }
+
+    return stars
+  }
+
+  return (
+    <div className="min-h-screen bg-gti-black-900">
+      {/* Header Section */}
+      <section className="hero-gradient text-white py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-6xl font-black mb-6">
+              <span className="block text-white">RESEÑAS</span>
+              <span className="block racing-text">AUTOMOTRICES</span>
+              <span className="block text-2xl md:text-3xl font-bold text-gray-300 mt-2">
+                Mercado Mexicano
+              </span>
+            </h1>
+            <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+              Análisis detallados y honestos de los vehículos más populares en México, 
+              con precios locales y condiciones de manejo mexicanas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews Grid */}
+      <section className="py-16 bg-gti-black-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {reviews.map((review) => (
+              <article
+                key={review.id}
+                className="blog-card rounded-xl overflow-hidden card-hover"
+              >
+                <div className="h-64 bg-gradient-to-br from-gti-red-600 to-gti-red-800 flex items-center justify-center relative">
+                  <div className="absolute inset-0 bg-black/20"></div>
+                  <div className="relative z-10 text-center">
+                    <Car className="w-20 h-20 text-white mx-auto mb-4" />
+                    <span className="text-white font-bold text-lg">RESEÑA TÉCNICA</span>
+                  </div>
+                  <div className="absolute top-4 right-4 bg-gti-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+                    {review.category}
+                  </div>
+                </div>
+                
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center">
+                      {renderStars(review.rating)}
+                      <span className="ml-2 text-sm text-gray-400">({review.rating})</span>
+                    </div>
+                    <div className="flex items-center text-gti-red-500 text-sm">
+                      <MapPin className="w-4 h-4 mr-1" />
+                      <span>{review.location}</span>
+                    </div>
+                  </div>
+
+                  <h2 className="text-2xl font-bold text-white mb-3">
+                    {review.title}
+                  </h2>
+                  
+                  <p className="text-gray-300 mb-4">
+                    {review.excerpt}
+                  </p>
+
+                  <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
+                    <div className="flex items-center text-gray-400">
+                      <Gauge className="w-4 h-4 mr-2 text-gti-red-500" />
+                      <span className="font-medium">{review.price}</span>
+                    </div>
+                    <div className="flex items-center text-gray-400">
+                      <Fuel className="w-4 h-4 mr-2 text-gti-red-500" />
+                      <span>{review.fuelEconomy}</span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-between pt-4 border-t border-gti-red-500/20">
+                    <div className="flex items-center text-sm text-gray-400">
+                      <Calendar className="w-4 h-4 mr-2" />
+                      <span>{review.author} • {review.date}</span>
+                    </div>
+                    <Link
+                      href={`/reviews/${review.id}`}
+                      className="text-gti-red-500 hover:text-gti-red-400 font-semibold flex items-center space-x-1 transition-colors"
+                    >
+                      <span>Leer reseña completa</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}
