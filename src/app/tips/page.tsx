@@ -9,7 +9,7 @@ export default function TipsPage() {
       excerpt: 'Tips específicos para proteger tu vehículo de las condiciones climáticas extremas de México: lluvias torrenciales, sol intenso y humedad.',
       category: 'Mantenimiento',
       readTime: '6 min',
-      author: 'Carlos Méndez',
+      author: 'Emanuel P',
       views: '18.5k',
       trending: true,
       date: '2024-01-15',
@@ -23,92 +23,56 @@ export default function TipsPage() {
     },
     {
       id: 2,
-      title: 'Mantenimiento de Frenos en Carreteras Mexicanas',
-      excerpt: 'Guía completa para el mantenimiento de frenos considerando las condiciones de las carreteras mexicanas, baches y tráfico pesado.',
-      category: 'Seguridad',
-      readTime: '8 min',
-      author: 'Ana Rodríguez',
-      views: '22.3k',
+      title: 'Cómo Elegir el Mejor Aceite para tu Auto en México',
+      excerpt: 'Guía completa para seleccionar el aceite motor ideal según el clima mexicano, tipo de conducción y recomendaciones del fabricante.',
+      category: 'Mantenimiento',
+      readTime: '7 min',
+      author: 'Emanuel P',
+      views: '15.8k',
       trending: true,
-      date: '2024-01-14',
-      location: 'Guadalajara',
+      date: '2024-01-20',
+      location: 'CDMX',
       content: [
-        'Revisa las pastillas cada 15,000 km en ciudad',
-        'Cambia el líquido de frenos cada 2 años',
-        'Inspecciona los discos por desgaste irregular',
-        'Considera frenos de mayor calidad para baches'
+        'Considera la viscosidad según la temperatura ambiente',
+        'Revisa las especificaciones del fabricante',
+        'Elige aceites sintéticos para mejor protección',
+        'Cambia el aceite cada 5,000-7,500 km en ciudad'
       ]
     },
     {
       id: 3,
-      title: 'Ahorro de Gasolina: Tips para el Tráfico de la CDMX',
-      excerpt: 'Consejos prácticos para optimizar el consumo de combustible en el tráfico pesado de la Ciudad de México y otras metrópolis.',
-      category: 'Eficiencia',
-      readTime: '5 min',
-      author: 'Miguel Torres',
-      views: '31.2k',
+      title: 'Cómo Mantener las Llantas en Carreteras Mexicanas',
+      excerpt: 'Guía completa para el cuidado de llantas considerando las condiciones específicas de las carreteras mexicanas: baches, calor extremo y diferentes tipos de pavimento.',
+      category: 'Mantenimiento',
+      readTime: '8 min',
+      author: 'Emanuel P',
+      views: '22.1k',
       trending: true,
-      date: '2024-01-13',
-      location: 'Monterrey',
+      date: '2024-01-25',
+      location: 'CDMX',
       content: [
-        'Mantén una velocidad constante en el tráfico',
-        'Usa el aire acondicionado de forma eficiente',
-        'Planifica rutas para evitar congestionamientos',
-        'Mantén las llantas infladas correctamente'
+        'Revisa la presión de aire cada 15 días',
+        'Rota las llantas cada 8,000-10,000 km',
+        'Evita baches y superficies irregulares',
+        'Mantén la alineación cada 20,000 km'
       ]
     },
     {
       id: 4,
-      title: 'Cómo Manejar en Temporada de Lluvias en México',
-      excerpt: 'Guía completa para conducir de forma segura durante la temporada de lluvias en México, incluyendo mantenimiento preventivo.',
-      category: 'Seguridad',
-      readTime: '7 min',
-      author: 'Laura Sánchez',
-      views: '25.7k',
-      trending: false,
-      date: '2024-01-11',
-      location: 'Puebla',
-      content: [
-        'Revisa el estado de las llantas y su dibujo',
-        'Mantén limpios los faros y luces traseras',
-        'Verifica el funcionamiento de los limpiaparabrisas',
-        'Reduce la velocidad en carreteras mojadas'
-      ]
-    },
-    {
-      id: 5,
-      title: 'Mantenimiento del Aire Acondicionado en Clima Mexicano',
-      excerpt: 'Tips para mantener el sistema de aire acondicionado funcionando perfectamente en el clima cálido y húmedo de México.',
-      category: 'Mantenimiento',
-      readTime: '4 min',
-      author: 'Roberto Jiménez',
-      views: '19.8k',
-      trending: false,
-      date: '2024-01-09',
-      location: 'Cancún',
-      content: [
-        'Cambia el filtro de aire cada 15,000 km',
-        'Recarga el gas refrigerante cada 2 años',
-        'Limpia los conductos de ventilación',
-        'Usa el recirculador en tráfico pesado'
-      ]
-    },
-    {
-      id: 6,
-      title: 'Protección contra Robo de Autos en México',
-      excerpt: 'Medidas de seguridad para proteger tu vehículo contra robos, especialmente en las principales ciudades de México.',
-      category: 'Seguridad',
+      title: 'Cómo Ahorrar Combustible en el Tráfico de México',
+      excerpt: 'Estrategias prácticas para optimizar el consumo de combustible en las condiciones de tráfico pesado de las ciudades mexicanas y carreteras nacionales.',
+      category: 'Eficiencia',
       readTime: '6 min',
-      author: 'Patricia López',
-      views: '28.4k',
+      author: 'Emanuel P',
+      views: '28.7k',
       trending: true,
-      date: '2024-01-07',
-      location: 'Tijuana',
+      date: '2024-01-30',
+      location: 'CDMX',
       content: [
-        'Instala un sistema de alarma confiable',
-        'Usa dispositivos de bloqueo adicionales',
-        'Estaciona en lugares bien iluminados',
-        'No dejes objetos de valor a la vista'
+        'Conduce de forma suave y anticipa el tráfico',
+        'Mantén una velocidad constante en carretera',
+        'Usa el aire acondicionado de forma eficiente',
+        'Planifica rutas para evitar congestionamientos'
       ]
     }
   ]

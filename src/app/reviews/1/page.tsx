@@ -21,85 +21,43 @@ export default function ReviewPage() {
     fullContent: `
       El Nissan Versa 2024 se mantiene como el sedán más vendido en México por una buena razón. Con un precio de $289,900 MXN, ofrece un excelente valor por dinero que es difícil de superar en el mercado mexicano. Según el catálogo oficial de Nissan México, este vehículo ha sido diseñado para "retar lo establecido" y demostrar que es el más tecnológico y seguro de su segmento.
 
-      DISEÑO Y ESTÉTICA
+      DISEÑO Y ESTÉTICA MODERNA
 
-      El Versa 2024 presenta un diseño que "reta la belleza en cada detalle", según Nissan. Cuenta con líneas que destacan cada detalle exterior, haciéndolo un sedán con toques deportivos. Las características destacadas incluyen:
-      - Antena tipo aleta de tiburón
-      - Faros LED con signature lamps
-      - Nuevo diseño de rines de 17 pulgadas
-      - Espejos exteriores con luces direccionales tipo LED
+      El Versa 2024 presenta un diseño que "reta la belleza en cada detalle", según Nissan. Cuenta con líneas que destacan cada detalle exterior, haciéndolo un sedán con toques deportivos. Las características destacadas incluyen antena tipo aleta de tiburón, faros LED con signature lamps, nuevo diseño de rines de 17 pulgadas y espejos exteriores con luces direccionales tipo LED.
 
-      INTERIOR Y CONFORT
+      El diseño frontal se caracteriza por una parrilla V-Motion distintiva de Nissan, mientras que la parte trasera presenta luces LED con diseño moderno. Las líneas del vehículo crean un perfil aerodinámico que mejora tanto la estética como la eficiencia de combustible.
 
-      El interior del Versa está diseñado para proporcionar "comodidad en cada uno de tus viajes". Incluye características avanzadas como:
-      - Monitor inteligente de alerta al conductor que detecta signos de cansancio
-      - Volante con ajuste de altura y profundidad
-      - Cargador inalámbrico
-      - Llave inteligente iKey® con función de apertura y cierre de puertas
-      - Cajuela amplia con "capacidad para todo"
+      INTERIOR Y CONECTIVIDAD AVANZADA
+
+      El interior del Versa está diseñado para proporcionar "comodidad en cada uno de tus viajes". Incluye características avanzadas como monitor inteligente de alerta al conductor que detecta signos de cansancio, volante con ajuste de altura y profundidad, cargador inalámbrico y llave inteligente iKey® con función de apertura y cierre de puertas.
+
+      El sistema de infoentretenimiento incluye una pantalla táctil con compatibilidad Apple CarPlay y Android Auto, permitiendo una integración perfecta con dispositivos móviles. La cajuela amplia ofrece "capacidad para todo" según Nissan, siendo una de las más espaciosas de su segmento.
 
       TECNOLOGÍAS DE SEGURIDAD AVANZADAS
 
-      El Versa 2024 cuenta con el paquete más completo en tecnologías de asistencia y seguridad de Nissan Intelligent Mobility, incluyendo:
+      El Versa 2024 cuenta con el paquete más completo en tecnologías de asistencia y seguridad de Nissan Intelligent Mobility. El Intelligent Emergency Braking (IEM) ayuda a prevenir colisiones mediante frenado automático, mientras que el Blind Spot Warning (BSW) detecta vehículos en punto ciego al cambiar de carril.
 
-      Intelligent Emergency Braking (IEM) - Frenado Inteligente de Emergencia:
-      Sistema que ayuda a prevenir colisiones mediante frenado automático.
+      El Hill Start Assist (HSA) previene que el vehículo retroceda cuando se quita el pie del freno en pendientes pronunciadas, y el Forward Collision Warning (FCW) monitora la velocidad y distancia del vehículo frontal, emitiendo alertas en caso de frenado repentino.
 
-      Blind Spot Warning (BSW) - Alerta de Punto Ciego:
-      Detecta vehículos en punto ciego al cambiar de carril, emitiendo alertas visuales y auditivas.
-
-      Hill Start Assist (HSA) - Asistente de Arranque en Pendientes:
-      Previene que el vehículo retroceda cuando se quita el pie del freno en pendientes pronunciadas.
-
-      Forward Collision Warning (FCW) - Alerta de Colisión Frontal:
-      Monitora la velocidad y distancia del vehículo frontal, emitiendo alertas en caso de frenado repentino.
-
-      Intelligent Around View Monitor + Moving Object Detection (I-AVM+MOD):
-      Proporciona vista aérea de 360° para estacionamiento y circulación a baja velocidad, con detección de objetos en movimiento.
-
-      CONECTIVIDAD Y ENTERTAINMENT
-
-      El Versa incluye NissanConnect®, el conjunto de herramientas digitales que ofrecen sincronía entre tu auto y tu vida:
-      - MiNissan® App para control remoto
-      - Sistema de infoentretenimiento con pantalla táctil
-      - Compatibilidad con Apple CarPlay y Android Auto
-      - Cargador inalámmico integrado
+      El Intelligent Around View Monitor + Moving Object Detection (I-AVM+MOD) proporciona vista aérea de 360° para estacionamiento y circulación a baja velocidad, con detección de objetos en movimiento. Estas tecnologías trabajan en conjunto para crear un entorno de conducción más seguro.
 
       VERSIÓN SR DEPORTIVA
 
-      La línea Versa SR va más allá de lo establecido por su segmento, ofreciendo:
-      - Diseño deportivo con toques únicos
-      - Combinación perfecta entre deportividad e innovación
-      - Presencia inigualable en cada camino
+      La línea Versa SR va más allá de lo establecido por su segmento, ofreciendo diseño deportivo con toques únicos, combinación perfecta entre deportividad e innovación y presencia inigualable en cada camino. Esta versión incluye detalles estéticos adicionales y mejoras en el manejo.
+
+      El Versa SR presenta rines de diseño exclusivo, detalles deportivos en el exterior y un interior con acabados premium que lo distinguen de las versiones estándar. La suspensión ha sido ajustada para ofrecer un manejo más deportivo sin comprometer la comodidad.
 
       MANEJO EN CARRETERAS MEXICANAS
 
       Durante nuestras pruebas en carreteras mexicanas, el Versa demostró un manejo estable y predecible. Las tecnologías de asistencia al conductor funcionan perfectamente en las condiciones típicas de manejo en México, desde el tráfico pesado de la CDMX hasta las carreteras de montaña.
 
+      El motor 1.6L de 4 cilindros ofrece un rendimiento equilibrado entre potencia y eficiencia de combustible, ideal para el uso diario en ciudades mexicanas. La transmisión CVT proporciona cambios suaves y contribuye al excelente consumo de combustible.
+
       MANTENIMIENTO Y CONFIABILIDAD
 
-      Nissan tiene una red de concesionarios bien establecida en México, lo que facilita el mantenimiento y servicio. Los costos de mantenimiento son razonables, con servicios cada 10,000 km. La confiabilidad del Versa es excelente, respaldada por la garantía oficial de Nissan México.
+      Nissan tiene una red de concesionarios bien establecida en México, lo que facilita el mantenimiento y servicio. Los costos de mantenimiento son razonables, con servicios cada 10,000 km. La confiabilidad del Versa es excelente, respaldada por la garantía oficial de Nissan México de 3 años o 100,000 kilómetros.
 
-      PROS Y CONTRAS
-
-      Pros:
-      - Tecnologías de seguridad más avanzadas de su segmento
-      - Diseño moderno con toques deportivos
-      - Excelente conectividad con NissanConnect®
-      - Monitor de alerta al conductor único en su clase
-      - Buena red de servicio en México
-      - Versión SR con diseño deportivo
-
-      Contras:
-      - Precio ligeramente superior a competidores básicos
-      - Algunas tecnologías solo disponibles en versiones superiores
-      - Transmisión CVT puede resultar ruidosa en aceleraciones fuertes
-
-      CONCLUSIÓN
-
-      El Nissan Versa 2024 es verdaderamente el sedán que "reta lo establecido" en su segmento. Con tecnologías de seguridad avanzadas como el Intelligent Emergency Braking y el monitor de alerta al conductor, ofrece características que normalmente se encuentran en vehículos de segmentos superiores. Su diseño moderno y conectividad avanzada lo convierten en una opción inteligente para el mercado mexicano.
-
-      Para compradores que buscan tecnología, seguridad y diseño en un sedán accesible, el Versa 2024 representa una excelente inversión que cumple y supera las expectativas del segmento.
+      El mantenimiento del Versa 2024 es relativamente económico comparado con otros sedanes del segmento, gracias a la confiabilidad del motor 1.6L y la disponibilidad de repuestos en el mercado mexicano.
     `,
     pros: [
       'Tecnologías de seguridad más avanzadas de su segmento',
@@ -108,102 +66,79 @@ export default function ReviewPage() {
       'NissanConnect® con MiNissan® App integrada',
       'Versión SR con diseño deportivo disponible',
       'Intelligent Emergency Braking y sistemas de asistencia',
-      'Cargador inalámbrico y llave inteligente iKey®'
+      'Cargador inalámbrico y llave inteligente iKey®',
+      'Excelente eficiencia de combustible (18.5 km/l)',
+      'Red de servicio Nissan bien establecida en México',
+      'Precio competitivo para el equipamiento ofrecido'
     ],
     cons: [
       'Precio ligeramente superior a competidores básicos',
       'Algunas tecnologías solo en versiones superiores',
       'Transmisión CVT puede resultar ruidosa en aceleraciones fuertes',
       'Mantenimiento de tecnologías avanzadas puede ser más costoso',
-      'Curva de aprendizaje para sistemas de asistencia'
+      'Curva de aprendizaje para sistemas de asistencia',
+      'Espacio en cajuela limitado comparado con SUVs'
     ]
   }
 
-  const renderStars = (rating: number) => {
-    const stars = []
-    const fullStars = Math.floor(rating)
-    const hasHalfStar = rating % 1 !== 0
-
-    for (let i = 0; i < fullStars; i++) {
-      stars.push(
-        <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
-      )
-    }
-
-    if (hasHalfStar) {
-      stars.push(
-        <Star key="half" className="w-5 h-5 text-yellow-400 fill-current opacity-50" />
-      )
-    }
-
-    const emptyStars = 5 - Math.ceil(rating)
-    for (let i = 0; i < emptyStars; i++) {
-      stars.push(
-        <Star key={`empty-${i}`} className="w-5 h-5 text-gray-300" />
-      )
-    }
-
-    return stars
-  }
-
   return (
-    <div className="min-h-screen bg-gti-black-900">
-      {/* Header */}
-      <div className="hero-gradient text-white py-8">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-gti-black-900 via-gti-black-800 to-gti-black-900">
+      <div className="max-w-4xl mx-auto px-4 py-8">
+        {/* Header */}
+        <div className="mb-8">
           <Link 
-            href="/reviews"
-            className="inline-flex items-center space-x-2 text-white hover:text-gray-300 transition-colors mb-6"
+            href="/reviews" 
+            className="inline-flex items-center text-gti-red-500 hover:text-gti-red-400 transition-colors mb-4"
           >
-            <ArrowLeft className="w-5 h-5" />
-            <span>Volver a Reseñas</span>
+            <ArrowLeft className="w-4 h-4 mr-2" />
+            Volver a Reseñas
           </Link>
           
-          <div className="flex items-center space-x-2 mb-4">
-            <span className="bg-gti-red-500 text-white px-3 py-1 rounded-full text-sm font-bold">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="bg-gti-red-500/20 text-gti-red-400 px-3 py-1 rounded-full text-sm font-medium">
               {review.category}
             </span>
-            <div className="flex items-center">
-              {renderStars(review.rating)}
-              <span className="ml-2 text-sm">({review.rating})</span>
-            </div>
+            <span className="bg-gti-gray-600/20 text-gti-gray-300 px-3 py-1 rounded-full text-sm">
+              {review.date}
+            </span>
           </div>
 
-          <h1 className="text-3xl md:text-4xl font-black mb-4">
+          <h1 className="text-4xl md:text-5xl font-black text-white mb-4 racing-text">
             {review.title}
           </h1>
+          
+          <p className="text-xl text-gray-300 mb-6 leading-relaxed">
+            {review.excerpt}
+          </p>
 
-          <div className="flex items-center space-x-6 text-gray-300 text-sm">
-            <div className="flex items-center space-x-2">
+          <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400">
+            <div className="flex items-center gap-2">
               <User className="w-4 h-4" />
               <span>{review.author}</span>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>{review.date}</span>
             </div>
-            <div className="flex items-center space-x-2">
-              <MapPin className="w-4 h-4" />
-              <span>{review.location}</span>
-            </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
               <span>{review.readTime}</span>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center gap-2">
               <Eye className="w-4 h-4" />
               <span>{review.views}</span>
             </div>
+            <div className="flex items-center gap-2">
+              <MapPin className="w-4 h-4" />
+              <span>{review.location}</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Hero Image */}
         <div className="mb-8">
-          <img 
-            src={review.image} 
+          <img
+            src={review.image}
             alt={review.car}
             className="w-full h-96 object-cover rounded-xl"
           />
@@ -285,6 +220,14 @@ export default function ReviewPage() {
                     <td className="px-6 py-4 text-sm text-white">LED con signature lamps</td>
                   </tr>
                   <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Suspensión</td>
+                    <td className="px-6 py-4 text-sm text-white">Independiente delantera y trasera</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Frenos</td>
+                    <td className="px-6 py-4 text-sm text-white">Discos delanteros, tambores traseros</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
                     <td className="px-6 py-4 text-sm text-gray-300 font-medium">Garantía</td>
                     <td className="px-6 py-4 text-sm text-white">3 años / 100,000 km</td>
                   </tr>
@@ -352,34 +295,113 @@ export default function ReviewPage() {
           </div>
         </div>
 
+        {/* Características de Conectividad */}
+        <div className="mb-8">
+          <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
+            <Car className="w-6 h-6 text-gti-red-500 mr-2" />
+            Características de Conectividad
+          </h3>
+          <div className="bg-gti-black-800/50 rounded-xl overflow-hidden border border-gti-red-500/20">
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead className="bg-gti-red-500/20">
+                  <tr>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Característica</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Descripción</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Disponibilidad</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gti-red-500/10">
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Pantalla Táctil</td>
+                    <td className="px-6 py-4 text-sm text-white">Sistema de infoentretenimiento</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ Serie</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Apple CarPlay</td>
+                    <td className="px-6 py-4 text-sm text-white">Integración completa con iPhone</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ Serie</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Android Auto</td>
+                    <td className="px-6 py-4 text-sm text-white">Integración completa con Android</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ Serie</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">NissanConnect®</td>
+                    <td className="px-6 py-4 text-sm text-white">Sistema de conectividad inteligente</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ Serie</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">MiNissan® App</td>
+                    <td className="px-6 py-4 text-sm text-white">Control remoto desde smartphone</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ Serie</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Cargador Inalámbrico</td>
+                    <td className="px-6 py-4 text-sm text-white">Carga inalámbrica para smartphones</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ Serie</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Llave Inteligente iKey®</td>
+                    <td className="px-6 py-4 text-sm text-white">Apertura y cierre remoto de puertas</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ Serie</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
         {/* Pros and Cons */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div className="bg-green-500/10 border border-green-500/20 rounded-lg p-6">
             <h3 className="text-xl font-bold text-green-400 mb-4">✅ Ventajas</h3>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               {review.pros.map((pro, index) => (
-                <li key={index} className="flex items-start space-x-2 text-gray-300">
+                <li key={index} className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{pro}</span>
+                  <span className="text-gray-300">{pro}</span>
                 </li>
               ))}
             </ul>
           </div>
+          
           <div className="bg-red-500/10 border border-red-500/20 rounded-lg p-6">
             <h3 className="text-xl font-bold text-red-400 mb-4">❌ Desventajas</h3>
-            <ul className="space-y-2">
+            <ul className="space-y-3">
               {review.cons.map((con, index) => (
-                <li key={index} className="flex items-start space-x-2 text-gray-300">
+                <li key={index} className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <span>{con}</span>
+                  <span className="text-gray-300">{con}</span>
                 </li>
               ))}
             </ul>
           </div>
         </div>
 
-        {/* Full Review Content */}
-        <div className="prose prose-invert max-w-none">
+        {/* Rating */}
+        <div className="bg-gti-black-800/50 rounded-lg p-6 mb-8">
+          <h3 className="text-xl font-bold text-white mb-4">Calificación General</h3>
+          <div className="flex items-center gap-4">
+            <div className="flex items-center gap-1">
+              {[...Array(5)].map((_, i) => (
+                <Star
+                  key={i}
+                  className={`w-6 h-6 ${
+                    i < Math.floor(review.rating)
+                      ? 'text-yellow-400 fill-current'
+                      : 'text-gray-600'
+                  }`}
+                />
+              ))}
+            </div>
+            <span className="text-2xl font-bold text-white">{review.rating}/5</span>
+          </div>
+        </div>
+
+        {/* Content */}
+        <div className="prose prose-lg max-w-none">
           <div className="text-gray-300 leading-relaxed whitespace-pre-line">
             {review.fullContent}
           </div>

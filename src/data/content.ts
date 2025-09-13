@@ -38,12 +38,42 @@ export const latestNews: ContentItem[] = [
   {
     id: 1,
     title: 'Cómo Proteger tu Auto del Clima Mexicano: Lluvia y Sol',
-    excerpt: 'Guía completa para mantener tu vehículo en perfectas condiciones durante la temporada de lluvias y el intenso sol mexicano.',
+    excerpt: 'Tips específicos para proteger tu vehículo de las condiciones climáticas extremas de México: lluvias torrenciales, sol intenso y humedad.',
     type: 'tip',
     author: 'Emanuel P',
-    date: '2024-01-12',
+    date: '2024-01-15',
     category: 'Mantenimiento',
     url: '/tips/1'
+  },
+  {
+    id: 2,
+    title: 'Cómo Elegir el Mejor Aceite para tu Auto en México',
+    excerpt: 'Guía completa para seleccionar el aceite motor ideal según el clima mexicano, tipo de conducción y recomendaciones del fabricante.',
+    type: 'tip',
+    author: 'Emanuel P',
+    date: '2024-01-20',
+    category: 'Mantenimiento',
+    url: '/tips/2'
+  },
+  {
+    id: 3,
+    title: 'Cómo Mantener las Llantas en Carreteras Mexicanas',
+    excerpt: 'Guía completa para el cuidado de llantas considerando las condiciones específicas de las carreteras mexicanas: baches, calor extremo y diferentes tipos de pavimento.',
+    type: 'tip',
+    author: 'Emanuel P',
+    date: '2024-01-25',
+    category: 'Mantenimiento',
+    url: '/tips/3'
+  },
+  {
+    id: 4,
+    title: 'Cómo Ahorrar Combustible en el Tráfico de México',
+    excerpt: 'Estrategias prácticas para optimizar el consumo de combustible en las condiciones de tráfico pesado de las ciudades mexicanas y carreteras nacionales.',
+    type: 'tip',
+    author: 'Emanuel P',
+    date: '2024-01-30',
+    category: 'Eficiencia',
+    url: '/tips/4'
   },
   {
     id: 1,

@@ -218,7 +218,7 @@ export default function ComparisonPage() {
     <div className="min-h-screen bg-gti-black-900">
       {/* Header */}
       <div className="hero-gradient text-white py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link 
             href="/comparisons"
             className="inline-flex items-center space-x-2 text-white hover:text-gray-300 transition-colors mb-6"
@@ -259,7 +259,7 @@ export default function ComparisonPage() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Car Comparison */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           {comparison.cars.map((car, index) => (

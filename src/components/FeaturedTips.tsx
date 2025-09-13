@@ -18,29 +18,42 @@ export default function FeaturedTips() {
     },
     {
       id: 2,
-      title: 'Mantenimiento de Frenos en Carreteras Mexicanas',
-      excerpt: 'Guía completa para el mantenimiento de frenos considerando las condiciones de las carreteras mexicanas, baches y tráfico pesado.',
-      category: 'Seguridad',
-      readTime: '8 min',
+      title: 'Cómo Elegir el Mejor Aceite para tu Auto en México',
+      excerpt: 'Guía completa para seleccionar el aceite motor ideal según el clima mexicano, tipo de conducción y recomendaciones del fabricante.',
+      category: 'Mantenimiento',
+      readTime: '7 min',
       author: 'Emanuel P',
-      views: '22.3k',
+      views: '15.8k',
       trending: true,
       featured: true,
-      date: '2024-01-14',
-      location: 'Guadalajara'
+      date: '2024-01-20',
+      location: 'CDMX'
     },
     {
       id: 3,
-      title: 'Ahorro de Gasolina: Tips para el Tráfico de la CDMX',
-      excerpt: 'Consejos prácticos para optimizar el consumo de combustible en el tráfico pesado de la Ciudad de México y otras metrópolis.',
-      category: 'Eficiencia',
-      readTime: '5 min',
+      title: 'Cómo Mantener las Llantas en Carreteras Mexicanas',
+      excerpt: 'Guía completa para el cuidado de llantas considerando las condiciones específicas de las carreteras mexicanas: baches, calor extremo y diferentes tipos de pavimento.',
+      category: 'Mantenimiento',
+      readTime: '8 min',
       author: 'Emanuel P',
-      views: '31.2k',
+      views: '22.1k',
       trending: true,
       featured: true,
-      date: '2024-01-13',
-      location: 'Monterrey'
+      date: '2024-01-25',
+      location: 'CDMX'
+    },
+    {
+      id: 4,
+      title: 'Cómo Ahorrar Combustible en el Tráfico de México',
+      excerpt: 'Estrategias prácticas para optimizar el consumo de combustible en las condiciones de tráfico pesado de las ciudades mexicanas y carreteras nacionales.',
+      category: 'Eficiencia',
+      readTime: '6 min',
+      author: 'Emanuel P',
+      views: '28.7k',
+      trending: true,
+      featured: true,
+      date: '2024-01-30',
+      location: 'CDMX'
     }
   ]
 

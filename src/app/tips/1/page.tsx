@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { ArrowLeft, Wrench, Clock, User, MapPin, Calendar, Eye, Sun, CloudRain, Droplets } from 'lucide-react'
+import ManualWarning from '@/components/ManualWarning'
 
 export default function TipPage() {
   const tip = {
@@ -126,7 +127,7 @@ export default function TipPage() {
     <div className="min-h-screen bg-gti-black-900">
       {/* Header */}
       <div className="hero-gradient text-white py-8">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link 
             href="/tips"
             className="inline-flex items-center space-x-2 text-white hover:text-gray-300 transition-colors mb-6"
@@ -173,7 +174,7 @@ export default function TipPage() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Hero Section */}
         <div className="mb-8">
           <div className="bg-gradient-to-br from-gti-red-600 to-gti-red-800 rounded-xl p-8 text-center">
@@ -182,6 +183,9 @@ export default function TipPage() {
             <p className="text-gray-200">{tip.excerpt}</p>
           </div>
         </div>
+
+        {/* Aviso Importante */}
+        <ManualWarning />
 
         {/* Quick Tips */}
         <div className="mb-8">
