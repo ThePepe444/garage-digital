@@ -14,6 +14,17 @@ export interface ContentItem {
 // Últimas noticias - se actualiza automáticamente con el contenido más reciente
 export const latestNews: ContentItem[] = [
   {
+    id: 3,
+    title: 'BYD Dolphin Mini 2026: El Futuro Eléctrico Compacto',
+    excerpt: 'Análisis completo del BYD Dolphin Mini 2026, el vehículo eléctrico compacto que está revolucionando la movilidad urbana en México con tecnología avanzada y autonomía excepcional.',
+    type: 'review',
+    author: 'Emanuel P',
+    date: '2024-02-15',
+    category: 'Eléctrico Compacto',
+    image: 'https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&h=600&fit=crop&crop=center',
+    url: '/reviews/3'
+  },
+  {
     id: 2,
     title: 'VW Jetta GLI 2025: La Máquina Deportiva Alemana',
     excerpt: 'Análisis completo del Volkswagen Jetta GLI 2025, la versión deportiva de alto rendimiento que combina potencia, tecnología avanzada y diseño agresivo.',
