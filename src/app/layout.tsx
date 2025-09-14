@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     images: ['/images/garage-digital-twitter.jpg'],
   },
   verification: {
-    google: 'tu-codigo-de-verificacion-google',
+    google: 'nK3Q2NqtHP3VuIiY7t1GRCy4rosQQ7o_qddqybkjUpQ',
     yandex: 'tu-codigo-de-verificacion-yandex',
     yahoo: 'tu-codigo-de-verificacion-yahoo',
   },
