@@ -8,7 +8,7 @@ export default function ReviewPage() {
     excerpt: 'Análisis completo del BYD Dolphin Mini 2026, el vehículo eléctrico compacto que está revolucionando la movilidad urbana en México con tecnología avanzada y autonomía excepcional.',
     car: 'BYD Dolphin Mini 2026',
     rating: 4.6,
-    price: '$489,900 MXN',
+    price: '$399,000 MXN',
     fuelEconomy: '10 kWh/100 km',
     category: 'Eléctrico Compacto',
     image: '/images/byd-dolphin-mini-2026.jpg',
@@ -67,7 +67,7 @@ export default function ReviewPage() {
 
       COMPARACIÓN CON COMPETENCIA
 
-      En su segmento, el Dolphin Mini se posiciona como una alternativa sólida a vehículos como el Nissan Leaf o el Chevrolet Bolt. Su precio de $489,900 MXN lo coloca en una posición competitiva, especialmente considerando el equipamiento y la tecnología que incluye de serie.
+      En su segmento, el Dolphin Mini se posiciona como una alternativa sólida a vehículos como el Nissan Leaf o el Chevrolet Bolt. Con un precio base de $399,000 MXN para la versión Mini y $415,000 MXN para la versión Plus, se coloca en una posición muy competitiva, especialmente considerando el equipamiento y la tecnología que incluye de serie.
 
       El BYD Dolphin Mini 2026 representa el futuro de la movilidad urbana: eficiente, tecnológico, seguro y accesible. Es la opción perfecta para quienes buscan dar el salto a la movilidad eléctrica sin comprometer funcionalidad, comodidad o presupuesto.
     `,
@@ -79,7 +79,7 @@ export default function ReviewPage() {
       'Carga rápida de 30 minutos',
       'Sistemas de seguridad completos',
       'Diseño moderno y aerodinámico',
-      'Precio competitivo en su segmento'
+      'Precio muy competitivo ($399K-$415K)'
     ],
     cons: [
       'Red de carga aún en expansión',
@@ -159,8 +159,9 @@ export default function ReviewPage() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <div className="bg-gti-gray-800/50 rounded-lg p-6 text-center">
             <Gauge className="w-8 h-8 text-gti-blue-500 mx-auto mb-2" />
-            <h3 className="text-lg font-bold text-white mb-1">Precio</h3>
-            <p className="text-2xl font-black text-gti-blue-500">{review.price}</p>
+            <h3 className="text-lg font-bold text-white mb-1">Precio Base</h3>
+            <p className="text-2xl font-black text-gti-blue-500">$399,000 MXN</p>
+            <p className="text-sm text-gray-400 mt-1">Plus: $415,000 MXN</p>
           </div>
           <div className="bg-gti-gray-800/50 rounded-lg p-6 text-center">
             <Battery className="w-8 h-8 text-gti-blue-500 mx-auto mb-2" />
@@ -197,6 +198,12 @@ export default function ReviewPage() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gti-blue-500/10">
+                  <tr className="hover:bg-gti-gray-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Precio</td>
+                    <td className="px-6 py-4 text-sm text-white font-bold">$399,000 MXN</td>
+                    <td className="px-6 py-4 text-sm text-white font-bold">$415,000 MXN</td>
+                    <td className="px-6 py-4 text-sm text-white">Precios de lista</td>
+                  </tr>
                   <tr className="hover:bg-gti-gray-700/30 transition-colors">
                     <td className="px-6 py-4 text-sm text-gray-300 font-medium">Batería</td>
                     <td className="px-6 py-4 text-sm text-white">30.08 kWh</td>

@@ -39,7 +39,7 @@ export default function LatestReviews() {
       excerpt: 'Análisis completo del BYD Dolphin Mini 2026, el vehículo eléctrico compacto que está revolucionando la movilidad urbana en México con tecnología avanzada y autonomía excepcional.',
       car: 'BYD Dolphin Mini 2026',
       rating: 4.6,
-      price: '$489,900 MXN',
+      price: '$399,000 MXN',
       fuelEconomy: '10 kWh/100 km',
       category: 'Eléctrico Compacto',
       image: 'https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&h=600&fit=crop&crop=center',
