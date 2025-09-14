@@ -47,33 +47,23 @@ export const latestNews: ContentItem[] = [
   },
   {
     id: 2,
-    title: 'Cómo Elegir el Mejor Aceite para tu Auto en México',
-    excerpt: 'Guía completa para seleccionar el aceite motor ideal según el clima mexicano, tipo de conducción y recomendaciones del fabricante.',
+    title: 'Cómo Verificar el Sistema de Frenos en Casa',
+    excerpt: 'Guía práctica para realizar una inspección básica del sistema de frenos de tu vehículo desde casa, identificando problemas comunes y cuándo acudir al taller.',
     type: 'tip',
     author: 'Emanuel P',
-    date: '2024-01-20',
-    category: 'Mantenimiento',
+    date: '2024-02-05',
+    category: 'Seguridad',
     url: '/tips/2'
   },
   {
     id: 3,
-    title: 'Cómo Mantener las Llantas en Carreteras Mexicanas',
-    excerpt: 'Guía completa para el cuidado de llantas considerando las condiciones específicas de las carreteras mexicanas: baches, calor extremo y diferentes tipos de pavimento.',
+    title: 'Cómo Mantener la Batería del Auto en Óptimas Condiciones',
+    excerpt: 'Guía completa para el cuidado de la batería de tu vehículo, incluyendo cómo prevenir descargas, verificar el estado y prolongar su vida útil en el clima mexicano.',
     type: 'tip',
     author: 'Emanuel P',
-    date: '2024-01-25',
-    category: 'Mantenimiento',
+    date: '2024-02-10',
+    category: 'Eléctrico',
     url: '/tips/3'
-  },
-  {
-    id: 4,
-    title: 'Cómo Ahorrar Combustible en el Tráfico de México',
-    excerpt: 'Estrategias prácticas para optimizar el consumo de combustible en las condiciones de tráfico pesado de las ciudades mexicanas y carreteras nacionales.',
-    type: 'tip',
-    author: 'Emanuel P',
-    date: '2024-01-30',
-    category: 'Eficiencia',
-    url: '/tips/4'
   },
   {
     id: 1,

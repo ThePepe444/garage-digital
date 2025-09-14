@@ -23,56 +23,38 @@ export default function TipsPage() {
     },
     {
       id: 2,
-      title: 'Cómo Elegir el Mejor Aceite para tu Auto en México',
-      excerpt: 'Guía completa para seleccionar el aceite motor ideal según el clima mexicano, tipo de conducción y recomendaciones del fabricante.',
-      category: 'Mantenimiento',
+      title: 'Cómo Verificar el Sistema de Frenos en Casa',
+      excerpt: 'Guía práctica para realizar una inspección básica del sistema de frenos de tu vehículo desde casa, identificando problemas comunes y cuándo acudir al taller.',
+      category: 'Seguridad',
       readTime: '7 min',
       author: 'Emanuel P',
-      views: '15.8k',
+      views: '31.2k',
       trending: true,
-      date: '2024-01-20',
+      date: '2024-02-05',
       location: 'CDMX',
       content: [
-        'Considera la viscosidad según la temperatura ambiente',
-        'Revisa las especificaciones del fabricante',
-        'Elige aceites sintéticos para mejor protección',
-        'Cambia el aceite cada 5,000-7,500 km en ciudad'
+        'Revisa el grosor de las pastillas de freno',
+        'Verifica el nivel del líquido de frenos',
+        'Inspecciona los discos en busca de rayones',
+        'Prueba la respuesta del pedal de freno'
       ]
     },
     {
       id: 3,
-      title: 'Cómo Mantener las Llantas en Carreteras Mexicanas',
-      excerpt: 'Guía completa para el cuidado de llantas considerando las condiciones específicas de las carreteras mexicanas: baches, calor extremo y diferentes tipos de pavimento.',
-      category: 'Mantenimiento',
-      readTime: '8 min',
-      author: 'Emanuel P',
-      views: '22.1k',
-      trending: true,
-      date: '2024-01-25',
-      location: 'CDMX',
-      content: [
-        'Revisa la presión de aire cada 15 días',
-        'Rota las llantas cada 8,000-10,000 km',
-        'Evita baches y superficies irregulares',
-        'Mantén la alineación cada 20,000 km'
-      ]
-    },
-    {
-      id: 4,
-      title: 'Cómo Ahorrar Combustible en el Tráfico de México',
-      excerpt: 'Estrategias prácticas para optimizar el consumo de combustible en las condiciones de tráfico pesado de las ciudades mexicanas y carreteras nacionales.',
-      category: 'Eficiencia',
+      title: 'Cómo Mantener la Batería del Auto en Óptimas Condiciones',
+      excerpt: 'Guía completa para el cuidado de la batería de tu vehículo, incluyendo cómo prevenir descargas, verificar el estado y prolongar su vida útil en el clima mexicano.',
+      category: 'Eléctrico',
       readTime: '6 min',
       author: 'Emanuel P',
-      views: '28.7k',
+      views: '25.8k',
       trending: true,
-      date: '2024-01-30',
+      date: '2024-02-10',
       location: 'CDMX',
       content: [
-        'Conduce de forma suave y anticipa el tráfico',
-        'Mantén una velocidad constante en carretera',
-        'Usa el aire acondicionado de forma eficiente',
-        'Planifica rutas para evitar congestionamientos'
+        'Limpia los terminales de corrosión regularmente',
+        'Verifica el voltaje con un multímetro',
+        'Protege la batería del sol excesivo',
+        'Revisa el nivel de electrolito si aplica'
       ]
     }
   ]

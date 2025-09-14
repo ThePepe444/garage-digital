@@ -1,137 +1,173 @@
 import Link from 'next/link'
-import { Star, ArrowLeft, Car, Fuel, Gauge, MapPin, Calendar, User, Clock, Eye, Wrench } from 'lucide-react'
+import { Star, ArrowLeft, Car, Fuel, Gauge, MapPin, Calendar, User, Clock, Eye, Wrench, Battery } from 'lucide-react'
 import ManualWarning from '@/components/ManualWarning'
 
 export default function TipPage() {
   const tip = {
     id: 3,
-    title: 'Cómo Mantener las Llantas en Carreteras Mexicanas',
-    excerpt: 'Guía completa para el cuidado de llantas considerando las condiciones específicas de las carreteras mexicanas: baches, calor extremo y diferentes tipos de pavimento.',
-    category: 'Mantenimiento',
-    readTime: '8 min',
+    title: 'Cómo Mantener la Batería del Auto en Óptimas Condiciones',
+    excerpt: 'Guía completa para el cuidado de la batería de tu vehículo, incluyendo cómo prevenir descargas, verificar el estado y prolongar su vida útil en el clima mexicano.',
+    category: 'Eléctrico',
+    readTime: '6 min',
     author: 'Emanuel P',
-    views: '22.1k',
-    date: '2024-01-25',
+    views: '25.8k',
+    date: '2024-02-10',
     location: 'CDMX',
     fullContent: `
-      Las llantas son el único punto de contacto entre tu vehículo y el pavimento, por lo que su mantenimiento es crucial para la seguridad. En México, las condiciones de las carreteras presentan desafíos únicos que requieren atención especial.
+      La batería es el corazón eléctrico de tu vehículo. Sin ella, no importa qué tan bien esté el motor, tu auto no arrancará. En México, donde el calor extremo puede ser un enemigo de las baterías, el mantenimiento adecuado es crucial.
 
-      TIPOS DE PAVIMENTO EN MÉXICO
+      TIPOS DE BATERÍAS
 
-      Las carreteras mexicanas presentan una gran variedad de superficies que afectan el desgaste de las llantas:
+      Baterías Convencionales: Las más comunes, requieren mantenimiento periódico del nivel de electrolito.
 
-      Pavimento Asfáltico: La mayoría de carreteras principales y autopistas. Proporciona buena tracción pero puede ser resbaloso cuando está mojado.
+      Baterías de Libre Mantenimiento: Selladas, no requieren agregar agua destilada, pero son más sensibles a sobrecarga.
 
-      Concreto: Común en carreteras de cuota y algunas vías urbanas. Más abrasivo que el asfalto, causando mayor desgaste.
+      Baterías AGM (Absorbed Glass Mat): Tecnología avanzada, más resistentes a vibraciones y descargas profundas.
 
-      Adoquín: Frecuente en centros históricos y algunas zonas residenciales. Puede causar vibraciones y desgaste irregular.
+      Baterías de Gel: Similar a AGM pero con electrolito en forma de gel, excelente para aplicaciones de alta gama.
 
-      Terracería: Carreteras rurales y de acceso. Muy abrasiva y puede dañar las llantas si no se maneja con cuidado.
+      FACTORES QUE AFECTAN LA VIDA ÚTIL
 
-      Baches y Reparaciones: Comunes en carreteras urbanas, pueden causar daños graves a las llantas.
+      Temperatura: El calor excesivo acelera la corrosión y evapora el electrolito. El frío reduce la capacidad de arranque.
 
-      PRESIÓN DE AIRE CORRECTA
+      Uso del Vehículo: Viajes cortos frecuentes no permiten que la batería se recargue completamente.
 
-      La presión de aire es fundamental para el rendimiento y seguridad de las llantas:
+      Accesorios Eléctricos: Luces, radio, aire acondicionado y otros accesorios consumen energía constantemente.
 
-      Revisa la presión cada 15 días o antes de viajes largos
-      Usa la presión recomendada en el manual del vehículo o en la etiqueta del marco de la puerta
-      Ajusta la presión según la carga del vehículo
-      Considera la temperatura ambiente - el calor aumenta la presión
+      Edad: Las baterías tienen una vida útil limitada, típicamente 3-5 años.
 
-      Presiones típicas para vehículos en México:
-      - Sedanes: 30-32 PSI
-      - SUVs: 32-35 PSI
-      - Pickups: 35-40 PSI
+      Vibraciones: Los golpes y vibraciones excesivas pueden dañar las placas internas.
 
-      ROTACIÓN DE LLANTAS
+      SEÑALES DE PROBLEMAS
 
-      La rotación regular prolonga la vida útil de las llantas:
+      Arranque Lento: El motor tarda más en arrancar, especialmente en frío.
 
-      Frecuencia recomendada: Cada 8,000-10,000 km
-      Patrón de rotación: Cruzado para tracción delantera, directo para tracción trasera
-      Incluye la llanta de refacción en la rotación si es del mismo tamaño
-      Marca la posición de cada llanta para seguimiento
+      Luces Tenues: Las luces del tablero y faros se ven más débiles de lo normal.
 
-      ALINEACIÓN Y BALANCEO
+      Ruidos Extraños: Clicks repetidos al girar la llave indican batería descargada.
 
-      Estos servicios son cruciales para el desgaste uniforme:
+      Corrosión: Acumulación blanca o verde en los terminales.
 
-      Alineación: Cada 20,000 km o si notas que el volante se desvía
-      Balanceo: Cada 10,000 km o si sientes vibraciones en el volante
-      Revisa la alineación después de golpear baches fuertes
-      Considera la geometría de la suspensión en vehículos con kilometraje alto
+      Batería Hinchada: Indica sobrecarga o calor excesivo.
 
-      CUIDADO ESPECÍFICO PARA MÉXICO
+      Olor a Huevo Podrido: Fugas de gas sulfhídrico, peligroso y requiere reemplazo inmediato.
 
-      Protección contra el Sol: El sol intenso degrada el caucho. Usa protectores solares para llantas cuando estaciones por períodos largos.
+      INSPECCIÓN VISUAL REGULAR
 
-      Baches: Reduce la velocidad al pasar por baches. Si no puedes evitarlos, pasa lentamente y en ángulo recto.
+      Terminales: Verifica que estén limpios y apretados. La corrosión impide la buena conexión.
 
-      Lluvia: Revisa el dibujo de las llantas antes de la temporada de lluvias. El mínimo legal es 1.6mm, pero se recomienda cambiar a 3mm.
+      Carcasa: Busca grietas, hinchazones o signos de daño físico.
 
-      Calor Extremo: En zonas desérticas, considera llantas con mayor resistencia al calor.
+      Electrolito: En baterías convencionales, verifica que el nivel esté sobre las placas.
 
-      SEÑALES DE DESGASTE
+      Cables: Inspecciona los cables de conexión en busca de desgaste o corrosión.
 
-      Revisa regularmente estas señales de desgaste:
-
-      Desgaste Irregular: Indica problemas de alineación o balanceo
-      Desgaste en los Bordes: Presión incorrecta o problemas de suspensión
-      Desgaste en el Centro: Presión excesiva
-      Desgate en los Lados: Presión insuficiente
-      Grietas o Abultamientos: Reemplazo inmediato necesario
-
-      ELECCIÓN DE LLANTAS PARA MÉXICO
-
-      Considera estos factores al elegir llantas:
-
-      Clima: Llantas para todo clima son ideales para la mayoría de México
-      Tipo de Conducción: Ciudad vs carretera vs mixta
-      Presupuesto: Balance entre calidad y costo
-      Marca: Bridgestone, Michelin, Continental, Goodyear son confiables
-      Garantía: Verifica la cobertura en México
+      Sujeción: Asegúrate de que la batería esté bien sujeta en su compartimento.
 
       MANTENIMIENTO PREVENTIVO
 
-      Rutina de mantenimiento recomendada:
+      Limpieza de Terminales: Usa una mezcla de bicarbonato y agua para limpiar la corrosión.
 
-      Revisión Visual: Cada semana
-      Presión de Aire: Cada 15 días
-      Rotación: Cada 8,000-10,000 km
-      Alineación: Cada 20,000 km
-      Balanceo: Cada 10,000 km
-      Reemplazo: Según desgaste o edad (máximo 6 años)
+      Apriete de Conexiones: Verifica que los terminales estén bien apretados cada 3 meses.
 
-      CONSEJOS DE CONDUCCIÓN
+      Nivel de Electrolito: En baterías convencionales, agrega agua destilada cuando sea necesario.
 
-      Para prolongar la vida de tus llantas:
+      Carga Completa: Realiza viajes largos ocasionalmente para permitir carga completa.
 
-      Evita frenadas bruscas y aceleraciones fuertes
-      Reduce la velocidad en curvas cerradas
-      Mantén distancia de seguridad para evitar frenadas de emergencia
-      Evita sobrecargar el vehículo
-      Conduce suavemente sobre baches y superficies irregulares
+      Desconexión: Si no usarás el auto por más de un mes, desconecta el terminal negativo.
 
-      El mantenimiento adecuado de las llantas no solo mejora la seguridad, sino que también optimiza el rendimiento de combustible y la comodidad de manejo. En México, donde las condiciones de las carreteras pueden ser desafiantes, el cuidado preventivo es especialmente importante.
+      CUIDADO ESPECÍFICO PARA MÉXICO
+
+      Protección del Sol: Estaciona en sombra cuando sea posible para evitar sobrecalentamiento.
+
+      Ventilación: Asegúrate de que el compartimento de la batería tenga buena ventilación.
+
+      Clima Cálido: En zonas calientes, revisa más frecuentemente el nivel de electrolito.
+
+      Temporada de Lluvias: Protege los terminales de la humedad excesiva.
+
+      Altitud: En ciudades altas como CDMX, las baterías pueden comportarse diferente.
+
+      PRUEBAS BÁSICAS
+
+      Prueba de Voltaje: Con el motor apagado, debe mostrar 12.6V o más.
+
+      Prueba de Carga: Con el motor encendido, debe mostrar 13.5-14.5V.
+
+      Prueba de Arranque: El voltaje no debe bajar de 10V durante el arranque.
+
+      Prueba de Carga Lenta: Usa un cargador lento si la batería está baja.
+
+      Herramientas Necesarias: Multímetro, limpiador de terminales, agua destilada.
+
+      CUÁNDO REEMPLAZAR LA BATERÍA
+
+      Edad: Después de 3-5 años, incluso si funciona bien.
+
+      Fallas Repetidas: Si requiere carga frecuente o no mantiene la carga.
+
+      Daño Físico: Carcasa agrietada, hinchada o terminales corroídos.
+
+      Pruebas Fallidas: Si no pasa las pruebas de voltaje y carga.
+
+      Recomendación del Fabricante: Sigue las especificaciones del manual.
+
+      ELECCIÓN DE BATERÍA NUEVA
+
+      Capacidad: Debe coincidir con las especificaciones del fabricante.
+
+      Tipo: Considera tu tipo de uso y presupuesto.
+
+      Marca: Elige marcas reconocidas con garantía en México.
+
+      Instalación: Asegúrate de que la instalación sea correcta.
+
+      Garantía: Verifica la cobertura y términos de garantía.
+
+      HERRAMIENTAS Y MATERIALES
+
+      Multímetro: Para medir voltaje y corriente.
+
+      Limpiador de Terminales: Cepillo de alambre o herramienta especializada.
+
+      Bicarbonato de Sodio: Para limpiar corrosión.
+
+      Agua Destilada: Para baterías convencionales.
+
+      Grasa para Terminales: Para prevenir corrosión futura.
+
+      Guantes y Gafas: Para protección personal.
+
+      CONSEJOS DE SEGURIDAD
+
+      Trabajo en Área Ventilada: Los gases de la batería son explosivos.
+
+      Sin Fuentes de Chispa: No fumes ni uses herramientas que generen chispas.
+
+      Protección Personal: Usa guantes y gafas de seguridad.
+
+      Orden de Desconexión: Primero negativo, luego positivo.
+
+      Orden de Conexión: Primero positivo, luego negativo.
+
+      El mantenimiento adecuado de la batería puede ahorrarte dinero y evitar inconvenientes. Una batería bien cuidada no solo dura más, sino que también proporciona un arranque confiable en cualquier condición climática.
     `,
     pros: [
-      'Mayor seguridad en carreteras mexicanas',
-      'Mejor rendimiento de combustible con presión correcta',
-      'Desgaste uniforme con rotación regular',
-      'Mayor durabilidad en condiciones extremas',
-      'Mejor tracción en lluvia y superficies mojadas',
-      'Reducción de vibraciones y ruido',
-      'Ahorro a largo plazo con mantenimiento preventivo',
-      'Mejor manejo y estabilidad del vehículo'
+      'Arranque confiable en todas las condiciones',
+      'Mayor vida útil de la batería',
+      'Ahorro en costos de reemplazo',
+      'Prevención de fallas inesperadas',
+      'Mejor rendimiento de accesorios eléctricos',
+      'Reducción de corrosión en terminales',
+      'Mantenimiento preventivo económico',
+      'Tranquilidad al conducir'
     ],
     cons: [
-      'Costo de rotación y balanceo regulares',
-      'Necesidad de revisión frecuente de presión',
-      'Costo de alineación periódica',
-      'Desgaste más rápido en carreteras con baches',
-      'Necesidad de reemplazo más frecuente en climas extremos',
-      'Costo inicial de llantas de calidad'
+      'Requiere inspección regular',
+      'Necesita herramientas básicas',
+      'Algunos tipos requieren mantenimiento especializado',
+      'Puede ser peligroso si no se maneja correctamente',
+      'Limitado a inspecciones visuales básicas'
     ]
   }
 
@@ -147,7 +183,7 @@ export default function TipPage() {
             <ArrowLeft className="w-4 h-4 mr-2" />
             Volver a Tips
           </Link>
-          
+
           <div className="flex items-center gap-2 mb-4">
             <span className="bg-gti-red-500/20 text-gti-red-400 px-3 py-1 rounded-full text-sm font-medium">
               {tip.category}
@@ -160,7 +196,7 @@ export default function TipPage() {
           <h1 className="text-4xl md:text-5xl font-black text-white mb-4 racing-text">
             {tip.title}
           </h1>
-          
+
           <p className="text-xl text-gray-300 mb-6 leading-relaxed">
             {tip.excerpt}
           </p>
@@ -193,8 +229,8 @@ export default function TipPage() {
         <div className="mb-8">
           <div className="w-full h-96 bg-gradient-to-br from-gti-red-600 to-gti-red-800 rounded-xl flex items-center justify-center">
             <div className="text-center">
-              <Wrench className="w-24 h-24 text-white mx-auto mb-4" />
-              <span className="text-white font-bold text-lg">TIPS DE MANTENIMIENTO</span>
+              <Battery className="w-24 h-24 text-white mx-auto mb-4" />
+              <span className="text-white font-bold text-lg">TIPS ELÉCTRICOS</span>
             </div>
           </div>
         </div>
@@ -202,7 +238,7 @@ export default function TipPage() {
         {/* Quick Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-gti-black-800/50 rounded-lg p-6 text-center">
-            <Wrench className="w-8 h-8 text-gti-red-500 mx-auto mb-2" />
+            <Battery className="w-8 h-8 text-gti-red-500 mx-auto mb-2" />
             <h3 className="text-lg font-bold text-white mb-1">Categoría</h3>
             <p className="text-2xl font-black text-gti-red-500">{tip.category}</p>
           </div>
@@ -221,149 +257,155 @@ export default function TipPage() {
         {/* Aviso Importante */}
         <ManualWarning />
 
-        {/* Tipos de Pavimento */}
-        <div className="mb-8">
-          <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
-            <Car className="w-6 h-6 text-gti-red-500 mr-2" />
-            Tipos de Pavimento en México
-          </h3>
-          <div className="bg-gti-black-800/50 rounded-xl overflow-hidden border border-gti-red-500/20">
-            <div className="overflow-x-auto">
-              <table className="w-full">
-                <thead className="bg-gti-red-500/20">
-                  <tr>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Tipo de Pavimento</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Características</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Efecto en Llantas</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Ubicaciones Comunes</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gti-red-500/10">
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Asfáltico</td>
-                    <td className="px-6 py-4 text-sm text-white">Superficie lisa, buena tracción</td>
-                    <td className="px-6 py-4 text-sm text-white">Desgaste normal</td>
-                    <td className="px-6 py-4 text-sm text-white">Autopistas, carreteras principales</td>
-                  </tr>
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Concreto</td>
-                    <td className="px-6 py-4 text-sm text-white">Superficie abrasiva, duradera</td>
-                    <td className="px-6 py-4 text-sm text-white">Mayor desgaste</td>
-                    <td className="px-6 py-4 text-sm text-white">Carreteras de cuota, vías urbanas</td>
-                  </tr>
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Adoquín</td>
-                    <td className="px-6 py-4 text-sm text-white">Superficie irregular, histórica</td>
-                    <td className="px-6 py-4 text-sm text-white">Desgaste irregular</td>
-                    <td className="px-6 py-4 text-sm text-white">Centros históricos, zonas residenciales</td>
-                  </tr>
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Terracería</td>
-                    <td className="px-6 py-4 text-sm text-white">Superficie de tierra, irregular</td>
-                    <td className="px-6 py-4 text-sm text-white">Alto desgaste, riesgo de daños</td>
-                    <td className="px-6 py-4 text-sm text-white">Carreteras rurales, accesos</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        {/* Presión de Aire */}
-        <div className="mb-8">
-          <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
-            <Gauge className="w-6 h-6 text-gti-red-500 mr-2" />
-            Presión de Aire Recomendada
-          </h3>
-          <div className="bg-gti-black-800/50 rounded-xl overflow-hidden border border-gti-red-500/20">
-            <div className="overflow-x-auto">
-              <table className="w-full">
-                <thead className="bg-gti-red-500/20">
-                  <tr>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Tipo de Vehículo</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Presión Fría (PSI)</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Presión Caliente (PSI)</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Frecuencia de Revisión</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gti-red-500/10">
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Sedanes</td>
-                    <td className="px-6 py-4 text-sm text-white">30-32 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">32-34 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">Cada 15 días</td>
-                  </tr>
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">SUVs</td>
-                    <td className="px-6 py-4 text-sm text-white">32-35 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">34-37 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">Cada 15 días</td>
-                  </tr>
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Pickups</td>
-                    <td className="px-6 py-4 text-sm text-white">35-40 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">37-42 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">Cada 15 días</td>
-                  </tr>
-                  <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Deportivos</td>
-                    <td className="px-6 py-4 text-sm text-white">28-32 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">30-34 PSI</td>
-                    <td className="px-6 py-4 text-sm text-white">Cada semana</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        {/* Mantenimiento Preventivo */}
+        {/* Tipos de Baterías */}
         <div className="mb-8">
           <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
             <Wrench className="w-6 h-6 text-gti-red-500 mr-2" />
-            Cronograma de Mantenimiento
+            Tipos de Baterías para Autos
           </h3>
           <div className="bg-gti-black-800/50 rounded-xl overflow-hidden border border-gti-red-500/20">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gti-red-500/20">
                   <tr>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Actividad</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Frecuencia</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Importancia</th>
-                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Costo Aproximado</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Tipo</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Características</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Vida Útil</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Mantenimiento</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gti-red-500/10">
                   <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Revisión Visual</td>
-                    <td className="px-6 py-4 text-sm text-white">Cada semana</td>
-                    <td className="px-6 py-4 text-sm text-green-400">Alta</td>
-                    <td className="px-6 py-4 text-sm text-white">Gratis</td>
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Convencional</td>
+                    <td className="px-6 py-4 text-sm text-white">Más económica, requiere mantenimiento</td>
+                    <td className="px-6 py-4 text-sm text-white">3-4 años</td>
+                    <td className="px-6 py-4 text-sm text-white">Revisar electrolito mensualmente</td>
                   </tr>
                   <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Presión de Aire</td>
-                    <td className="px-6 py-4 text-sm text-white">Cada 15 días</td>
-                    <td className="px-6 py-4 text-sm text-green-400">Alta</td>
-                    <td className="px-6 py-4 text-sm text-white">Gratis</td>
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Libre Mantenimiento</td>
+                    <td className="px-6 py-4 text-sm text-white">Sellada, sin mantenimiento</td>
+                    <td className="px-6 py-4 text-sm text-white">4-5 años</td>
+                    <td className="px-6 py-4 text-sm text-white">Solo limpieza de terminales</td>
                   </tr>
                   <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Rotación</td>
-                    <td className="px-6 py-4 text-sm text-white">8,000-10,000 km</td>
-                    <td className="px-6 py-4 text-sm text-green-400">Alta</td>
-                    <td className="px-6 py-4 text-sm text-white">$200-400 MXN</td>
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">AGM</td>
+                    <td className="px-6 py-4 text-sm text-white">Alto rendimiento, resistente</td>
+                    <td className="px-6 py-4 text-sm text-white">5-7 años</td>
+                    <td className="px-6 py-4 text-sm text-white">Mínimo mantenimiento</td>
                   </tr>
                   <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Balanceo</td>
-                    <td className="px-6 py-4 text-sm text-white">10,000 km</td>
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Gel</td>
+                    <td className="px-6 py-4 text-sm text-white">Máximo rendimiento, premium</td>
+                    <td className="px-6 py-4 text-sm text-white">6-8 años</td>
+                    <td className="px-6 py-4 text-sm text-white">Sin mantenimiento</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* Señales de Problemas */}
+        <div className="mb-8">
+          <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
+            <Car className="w-6 h-6 text-gti-red-500 mr-2" />
+            Señales de Problemas en la Batería
+          </h3>
+          <div className="bg-gti-black-800/50 rounded-xl overflow-hidden border border-gti-red-500/20">
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead className="bg-gti-red-500/20">
+                  <tr>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Señal</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Descripción</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Urgencia</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Solución</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gti-red-500/10">
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Arranque Lento</td>
+                    <td className="px-6 py-4 text-sm text-white">Motor tarda en arrancar</td>
                     <td className="px-6 py-4 text-sm text-yellow-400">Media</td>
-                    <td className="px-6 py-4 text-sm text-white">$300-500 MXN</td>
+                    <td className="px-6 py-4 text-sm text-white">Revisar carga y conexiones</td>
                   </tr>
                   <tr className="hover:bg-gti-black-700/30 transition-colors">
-                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Alineación</td>
-                    <td className="px-6 py-4 text-sm text-white">20,000 km</td>
-                    <td className="px-6 py-4 text-sm text-green-400">Alta</td>
-                    <td className="px-6 py-4 text-sm text-white">$400-800 MXN</td>
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Luces Tenues</td>
+                    <td className="px-6 py-4 text-sm text-white">Iluminación débil</td>
+                    <td className="px-6 py-4 text-sm text-yellow-400">Media</td>
+                    <td className="px-6 py-4 text-sm text-white">Verificar voltaje de batería</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Clicks Repetidos</td>
+                    <td className="px-6 py-4 text-sm text-white">Sonido al girar llave</td>
+                    <td className="px-6 py-4 text-sm text-red-400">Alta</td>
+                    <td className="px-6 py-4 text-sm text-white">Cargar o reemplazar batería</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Corrosión</td>
+                    <td className="px-6 py-4 text-sm text-white">Acumulación en terminales</td>
+                    <td className="px-6 py-4 text-sm text-yellow-400">Media</td>
+                    <td className="px-6 py-4 text-sm text-white">Limpiar terminales</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Batería Hinchada</td>
+                    <td className="px-6 py-4 text-sm text-white">Carcasa deformada</td>
+                    <td className="px-6 py-4 text-sm text-red-400">Alta</td>
+                    <td className="px-6 py-4 text-sm text-white">Reemplazar inmediatamente</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Olor a Huevo</td>
+                    <td className="px-6 py-4 text-sm text-white">Gas sulfhídrico</td>
+                    <td className="px-6 py-4 text-sm text-red-400">Crítica</td>
+                    <td className="px-6 py-4 text-sm text-white">Reemplazar y ventilar</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* Pruebas de Voltaje */}
+        <div className="mb-8">
+          <h3 className="text-2xl font-bold text-white mb-6 flex items-center">
+            <Gauge className="w-6 h-6 text-gti-red-500 mr-2" />
+            Pruebas Básicas de Voltaje
+          </h3>
+          <div className="bg-gti-black-800/50 rounded-xl overflow-hidden border border-gti-red-500/20">
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead className="bg-gti-red-500/20">
+                  <tr>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Prueba</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Condición</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Voltaje Correcto</th>
+                    <th className="px-6 py-4 text-left text-sm font-bold text-white">Interpretación</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gti-red-500/10">
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Reposo</td>
+                    <td className="px-6 py-4 text-sm text-white">Motor apagado, 12+ horas</td>
+                    <td className="px-6 py-4 text-sm text-white">12.6V o más</td>
+                    <td className="px-6 py-4 text-sm text-white">Batería en buen estado</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Carga</td>
+                    <td className="px-6 py-4 text-sm text-white">Motor encendido, ralentí</td>
+                    <td className="px-6 py-4 text-sm text-white">13.5-14.5V</td>
+                    <td className="px-6 py-4 text-sm text-white">Alternador funcionando</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Arranque</td>
+                    <td className="px-6 py-4 text-sm text-white">Durante el arranque</td>
+                    <td className="px-6 py-4 text-sm text-white">No menos de 10V</td>
+                    <td className="px-6 py-4 text-sm text-white">Batería con buena capacidad</td>
+                  </tr>
+                  <tr className="hover:bg-gti-black-700/30 transition-colors">
+                    <td className="px-6 py-4 text-sm text-gray-300 font-medium">Carga Lenta</td>
+                    <td className="px-6 py-4 text-sm text-white">Con cargador externo</td>
+                    <td className="px-6 py-4 text-sm text-white">14.4V máximo</td>
+                    <td className="px-6 py-4 text-sm text-white">Carga controlada</td>
                   </tr>
                 </tbody>
               </table>
@@ -384,7 +426,7 @@ export default function TipPage() {
               ))}
             </ul>
           </div>
-          
+
           <div className="bg-red-500/10 border border-red-500/20 rounded-lg p-6">
             <h3 className="text-xl font-bold text-red-400 mb-4">❌ Desventajas</h3>
             <ul className="space-y-3">
