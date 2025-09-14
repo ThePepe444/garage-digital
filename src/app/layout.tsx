@@ -8,15 +8,51 @@ import GoogleTagManager from '@/components/GoogleTagManager'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Garage Digital - Racing News & Reviews | Noticias Automotrices',
-  description: 'La fuente definitiva de noticias automotrices, reseñas técnicas y análisis de rendimiento. Tips de mecánica, comparaciones y todo para los verdaderos entusiastas del motor.',
-  keywords: 'racing, noticias automotrices, reseñas técnicas, análisis rendimiento, mecánica, autos deportivos, GTI, tuning',
-  authors: [{ name: 'Garage Digital' }],
+  title: 'Garage Digital - Reseñas de Autos, Tips de Mecánica y Noticias Automotrices México',
+  description: 'Reseñas técnicas de autos en México, tips de mecánica, comparaciones y noticias automotrices. Análisis detallado de Nissan Versa, VW Jetta GLI, BYD Dolphin Mini y más. Precios, especificaciones y opiniones expertas.',
+  keywords: 'reseñas de autos México, Nissan Versa 2024, VW Jetta GLI 2025, BYD Dolphin Mini 2026, tips de mecánica, comparaciones de autos, noticias automotrices, análisis técnico, precios de autos México, especificaciones automotrices',
+  authors: [{ name: 'Fanático de los automóviles', url: 'https://garage-digital.netlify.app' }],
+  creator: 'Garage Digital',
+  publisher: 'Garage Digital',
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+  alternates: {
+    canonical: 'https://garage-digital.netlify.app',
+  },
   openGraph: {
-    title: 'Garage Digital - Racing News & Reviews',
-    description: 'La fuente definitiva de noticias automotrices y análisis técnico',
+    title: 'Garage Digital - Reseñas de Autos y Tips de Mecánica México',
+    description: 'Reseñas técnicas de autos en México, tips de mecánica, comparaciones y noticias automotrices. Análisis detallado con precios y especificaciones.',
     type: 'website',
-    locale: 'es_ES',
+    locale: 'es_MX',
+    url: 'https://garage-digital.netlify.app',
+    siteName: 'Garage Digital',
+    images: [
+      {
+        url: '/images/garage-digital-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Garage Digital - Reseñas de Autos México',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Garage Digital - Reseñas de Autos México',
+    description: 'Reseñas técnicas, tips de mecánica y noticias automotrices para México',
+    creator: '@garagedigitalmx',
+    images: ['/images/garage-digital-twitter.jpg'],
+  },
+  verification: {
+    google: 'tu-codigo-de-verificacion-google',
+    yandex: 'tu-codigo-de-verificacion-yandex',
+    yahoo: 'tu-codigo-de-verificacion-yahoo',
+  },
+  category: 'Automotive',
+  classification: 'Automotive News and Reviews',
+  other: {
+    'geo.region': 'MX',
+    'geo.placename': 'México',
+    'geo.position': '23.6345;-102.5528',
+    'ICBM': '23.6345, -102.5528',
   },
 }
 

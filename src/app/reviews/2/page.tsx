@@ -1,5 +1,55 @@
 import Link from 'next/link'
 import { Star, ArrowLeft, Car, Fuel, Gauge, MapPin, Calendar, User, Clock, Eye, Shield } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'VW Jetta GLI 2025: Reseña Completa, Precio y Especificaciones México',
+  description: 'Reseña técnica completa del Volkswagen Jetta GLI 2025 en México. Precio $589,900 MXN, motor 2.0 TSI 228 HP, transmisión DSG. Análisis detallado, pros y contras, características deportivas.',
+  keywords: 'VW Jetta GLI 2025, Volkswagen Jetta GLI, precio Jetta GLI, motor 2.0 TSI, DSG, sedán deportivo México, VW México, 228 HP, transmisión automática, reseña técnica',
+  authors: [{ name: 'Fanático de los automóviles' }],
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+  alternates: {
+    canonical: 'https://garage-digital.netlify.app/reviews/2',
+  },
+  openGraph: {
+    title: 'VW Jetta GLI 2025: Reseña Completa y Precio México',
+    description: 'Reseña técnica del VW Jetta GLI 2025. Precio $589,900 MXN, motor 2.0 TSI 228 HP. Análisis completo para México.',
+    type: 'article',
+    locale: 'es_MX',
+    url: 'https://garage-digital.netlify.app/reviews/2',
+    siteName: 'Garage Digital',
+    images: [
+      {
+        url: '/images/jetta-gli-2025-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'VW Jetta GLI 2025 - Sedán Deportivo México',
+      },
+    ],
+    publishedTime: '2024-01-20T00:00:00.000Z',
+    modifiedTime: new Date().toISOString(),
+    authors: ['Fanático de los automóviles'],
+    section: 'Reseñas de Autos',
+    tags: ['Volkswagen', 'Jetta GLI', 'Sedán Deportivo', 'México', 'Reseña'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'VW Jetta GLI 2025: Reseña Completa México',
+    description: 'Precio $589,900 MXN, motor 2.0 TSI 228 HP. Análisis técnico completo.',
+    images: ['/images/jetta-gli-2025-twitter.jpg'],
+  },
+  category: 'Automotive Review',
+  other: {
+    'article:author': 'Fanático de los automóviles',
+    'article:section': 'Reseñas de Autos',
+    'article:tag': 'Volkswagen Jetta GLI, Sedán Deportivo, México',
+    'product:brand': 'Volkswagen',
+    'product:availability': 'in stock',
+    'product:condition': 'new',
+    'product:price:amount': '589900',
+    'product:price:currency': 'MXN',
+  },
+}
 
 export default function ReviewPage() {
   const review = {

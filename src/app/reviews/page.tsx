@@ -1,5 +1,43 @@
 import Link from 'next/link'
 import { Star, ArrowRight, Car, Fuel, Gauge, MapPin, Calendar } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Reseñas de Autos México 2024-2025: Análisis Técnicos Completos',
+  description: 'Reseñas técnicas completas de autos en México: Nissan Versa 2024, VW Jetta GLI 2025, BYD Dolphin Mini 2026. Precios, especificaciones, pros y contras. Análisis expertos para compradores mexicanos.',
+  keywords: 'reseñas autos México, Nissan Versa 2024, VW Jetta GLI 2025, BYD Dolphin Mini 2026, análisis técnico autos, precios autos México, especificaciones automotrices, comparativas autos',
+  authors: [{ name: 'Fanático de los automóviles' }],
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+  alternates: {
+    canonical: 'https://garage-digital.netlify.app/reviews',
+  },
+  openGraph: {
+    title: 'Reseñas de Autos México 2024-2025',
+    description: 'Reseñas técnicas completas de autos en México. Análisis expertos con precios y especificaciones.',
+    type: 'website',
+    locale: 'es_MX',
+    url: 'https://garage-digital.netlify.app/reviews',
+    siteName: 'Garage Digital',
+    images: [
+      {
+        url: '/images/resenas-autos-mexico-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Reseñas de Autos México - Análisis Técnicos',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Reseñas de Autos México 2024-2025',
+    description: 'Análisis técnicos completos de autos en México con precios y especificaciones.',
+    images: ['/images/resenas-autos-mexico-twitter.jpg'],
+  },
+  category: 'Automotive Reviews',
+  other: {
+    'article:section': 'Reseñas de Autos',
+  },
+}
 
 export default function ReviewsPage() {
   const reviews = [

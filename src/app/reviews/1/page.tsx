@@ -1,5 +1,55 @@
 import Link from 'next/link'
 import { Star, ArrowLeft, Car, Fuel, Gauge, MapPin, Calendar, User, Clock, Eye, Shield } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Nissan Versa 2024: Reseña Completa, Precio y Especificaciones México',
+  description: 'Reseña técnica completa del Nissan Versa 2024 en México. Precio $289,900 MXN, consumo 18.5 km/l, tecnologías de seguridad avanzadas. Análisis detallado, pros y contras, comparación con competencia.',
+  keywords: 'Nissan Versa 2024, precio Nissan Versa, consumo Nissan Versa, sedán económico México, Nissan México, tecnologías seguridad, conectividad, reseña técnica, especificaciones Nissan',
+  authors: [{ name: 'Fanático de los automóviles' }],
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+  alternates: {
+    canonical: 'https://garage-digital.netlify.app/reviews/1',
+  },
+  openGraph: {
+    title: 'Nissan Versa 2024: Reseña Completa y Precio México',
+    description: 'Reseña técnica del Nissan Versa 2024. Precio $289,900 MXN, consumo 18.5 km/l. Análisis completo para México.',
+    type: 'article',
+    locale: 'es_MX',
+    url: 'https://garage-digital.netlify.app/reviews/1',
+    siteName: 'Garage Digital',
+    images: [
+      {
+        url: '/images/nissan-versa-2024-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Nissan Versa 2024 - Sedán Tecnológico México',
+      },
+    ],
+    publishedTime: '2024-01-15T00:00:00.000Z',
+    modifiedTime: new Date().toISOString(),
+    authors: ['Fanático de los automóviles'],
+    section: 'Reseñas de Autos',
+    tags: ['Nissan', 'Versa', 'Sedán', 'México', 'Reseña'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nissan Versa 2024: Reseña Completa México',
+    description: 'Precio $289,900 MXN, consumo 18.5 km/l. Análisis técnico completo.',
+    images: ['/images/nissan-versa-2024-twitter.jpg'],
+  },
+  category: 'Automotive Review',
+  other: {
+    'article:author': 'Fanático de los automóviles',
+    'article:section': 'Reseñas de Autos',
+    'article:tag': 'Nissan Versa, Sedán, México',
+    'product:brand': 'Nissan',
+    'product:availability': 'in stock',
+    'product:condition': 'new',
+    'product:price:amount': '289900',
+    'product:price:currency': 'MXN',
+  },
+}
 
 export default function ReviewPage() {
   const review = {

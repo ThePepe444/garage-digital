@@ -1,5 +1,43 @@
 import Link from 'next/link'
 import { Clock, User, ArrowRight, Wrench, Car, Settings, TrendingUp, Eye, MapPin, Calendar } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Tips de Mecánica Automotriz México: Guías de Mantenimiento y Cuidado',
+  description: 'Tips de mecánica automotriz específicos para México. Guías de mantenimiento, cuidado del auto, sistema de frenos, batería automotriz. Consejos expertos para condiciones mexicanas.',
+  keywords: 'tips mecánica automotriz, mantenimiento auto México, cuidado vehículo, sistema frenos auto, batería automotriz, mecánica básica, tips automotrices, guías mantenimiento',
+  authors: [{ name: 'Fanático de los automóviles' }],
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+  alternates: {
+    canonical: 'https://garage-digital.netlify.app/tips',
+  },
+  openGraph: {
+    title: 'Tips de Mecánica Automotriz México',
+    description: 'Guías de mantenimiento y cuidado automotriz específicas para México. Tips expertos.',
+    type: 'website',
+    locale: 'es_MX',
+    url: 'https://garage-digital.netlify.app/tips',
+    siteName: 'Garage Digital',
+    images: [
+      {
+        url: '/images/tips-mecanica-mexico-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tips de Mecánica Automotriz México',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tips de Mecánica Automotriz México',
+    description: 'Guías de mantenimiento y cuidado automotriz específicas para México.',
+    images: ['/images/tips-mecanica-mexico-twitter.jpg'],
+  },
+  category: 'Automotive Tips',
+  other: {
+    'article:section': 'Tips de Mecánica',
+  },
+}
 
 export default function TipsPage() {
   const tips = [

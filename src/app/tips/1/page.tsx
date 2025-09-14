@@ -1,6 +1,51 @@
 import Link from 'next/link'
 import { ArrowLeft, Wrench, Clock, User, MapPin, Calendar, Eye, Sun, CloudRain, Droplets } from 'lucide-react'
 import ManualWarning from '@/components/ManualWarning'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Cómo Proteger tu Auto del Clima Mexicano: Tips de Mantenimiento',
+  description: 'Tips específicos para proteger tu vehículo del clima extremo de México: lluvias torrenciales, sol intenso y humedad. Guía completa de mantenimiento automotriz para condiciones mexicanas.',
+  keywords: 'proteger auto lluvia, proteger auto sol, mantenimiento automotriz México, tips automotrices, clima extremo auto, cuidado auto lluvia, cuidado auto sol, mantenimiento vehículo México',
+  authors: [{ name: 'Fanático de los automóviles' }],
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+  alternates: {
+    canonical: 'https://garage-digital.netlify.app/tips/1',
+  },
+  openGraph: {
+    title: 'Cómo Proteger tu Auto del Clima Mexicano',
+    description: 'Tips específicos para proteger tu vehículo del clima extremo de México. Guía completa de mantenimiento.',
+    type: 'article',
+    locale: 'es_MX',
+    url: 'https://garage-digital.netlify.app/tips/1',
+    siteName: 'Garage Digital',
+    images: [
+      {
+        url: '/images/tip-clima-mexicano-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Tips para Proteger Auto del Clima Mexicano',
+      },
+    ],
+    publishedTime: '2024-01-10T00:00:00.000Z',
+    modifiedTime: new Date().toISOString(),
+    authors: ['Fanático de los automóviles'],
+    section: 'Tips de Mecánica',
+    tags: ['Mantenimiento', 'Clima', 'Auto', 'México', 'Tips'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cómo Proteger tu Auto del Clima Mexicano',
+    description: 'Tips específicos para proteger tu vehículo del clima extremo de México.',
+    images: ['/images/tip-clima-mexicano-twitter.jpg'],
+  },
+  category: 'Automotive Tips',
+  other: {
+    'article:author': 'Fanático de los automóviles',
+    'article:section': 'Tips de Mecánica',
+    'article:tag': 'Mantenimiento, Clima, Auto, México',
+  },
+}
 
 export default function TipPage() {
   const tip = {

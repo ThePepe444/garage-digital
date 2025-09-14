@@ -1,5 +1,55 @@
 import Link from 'next/link'
 import { Star, ArrowLeft, Car, Fuel, Gauge, MapPin, Calendar, User, Clock, Eye, Battery, Zap, Shield } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'BYD Dolphin Mini 2026: Reseña Completa, Precios y Especificaciones México',
+  description: 'Reseña técnica completa del BYD Dolphin Mini 2026 en México. Precio $399,000 MXN (base) y $415,000 MXN (Plus). Autonomía 300-380 km, consumo 10 kWh/100 km. Análisis detallado, pros y contras, comparación con competencia.',
+  keywords: 'BYD Dolphin Mini 2026, auto eléctrico México, precio BYD Dolphin Mini, autonomía eléctrico, consumo kWh, carro eléctrico barato, BYD México, auto urbano eléctrico, reseña técnica, especificaciones BYD',
+  authors: [{ name: 'Fanático de los automóviles' }],
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1',
+  alternates: {
+    canonical: 'https://garage-digital.netlify.app/reviews/3',
+  },
+  openGraph: {
+    title: 'BYD Dolphin Mini 2026: Reseña Completa y Precios México',
+    description: 'Reseña técnica del BYD Dolphin Mini 2026. Precio $399K-$415K MXN, autonomía 300-380 km. Análisis completo para México.',
+    type: 'article',
+    locale: 'es_MX',
+    url: 'https://garage-digital.netlify.app/reviews/3',
+    siteName: 'Garage Digital',
+    images: [
+      {
+        url: '/images/byd-dolphin-mini-2026-og.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'BYD Dolphin Mini 2026 - Auto Eléctrico Compacto México',
+      },
+    ],
+    publishedTime: '2024-02-15T00:00:00.000Z',
+    modifiedTime: new Date().toISOString(),
+    authors: ['Fanático de los automóviles'],
+    section: 'Reseñas de Autos',
+    tags: ['BYD', 'Dolphin Mini', 'Auto Eléctrico', 'México', 'Reseña'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'BYD Dolphin Mini 2026: Reseña Completa México',
+    description: 'Precio $399K-$415K MXN, autonomía 300-380 km. Análisis técnico completo.',
+    images: ['/images/byd-dolphin-mini-2026-twitter.jpg'],
+  },
+  category: 'Automotive Review',
+  other: {
+    'article:author': 'Fanático de los automóviles',
+    'article:section': 'Reseñas de Autos',
+    'article:tag': 'BYD Dolphin Mini, Auto Eléctrico, México',
+    'product:brand': 'BYD',
+    'product:availability': 'in stock',
+    'product:condition': 'new',
+    'product:price:amount': '399000',
+    'product:price:currency': 'MXN',
+  },
+}
 
 export default function ReviewPage() {
   const review = {
@@ -91,8 +141,95 @@ export default function ReviewPage() {
     ]
   }
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "Car",
+      "name": "BYD Dolphin Mini 2026",
+      "brand": {
+        "@type": "Brand",
+        "name": "BYD"
+      },
+      "model": "Dolphin Mini",
+      "vehicleModelDate": "2026",
+      "bodyType": "Hatchback",
+      "fuelType": "Electric",
+      "vehicleEngine": {
+        "@type": "EngineSpecification",
+        "engineType": "Electric Motor",
+        "enginePower": "55 kW",
+        "engineTorque": "135 N·m"
+      },
+      "vehicleTransmission": "Single Speed",
+      "fuelEfficiency": "10 kWh/100 km",
+      "vehicleInteriorColor": "Black",
+      "numberOfDoors": 5,
+      "seatingCapacity": 5,
+      "cargoVolume": "230 L",
+      "accelerationTime": "0-100 km/h en segundos",
+      "topSpeed": "130 km/h",
+      "range": "300-380 km",
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "BYD Dolphin Mini",
+          "price": "399000",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@type": "Organization",
+            "name": "BYD México"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "BYD Dolphin Mini Plus",
+          "price": "415000",
+          "priceCurrency": "MXN",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@type": "Organization",
+            "name": "BYD México"
+          }
+        }
+      ]
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "4.6",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Fanático de los automóviles",
+      "jobTitle": "Especialista en Automotriz"
+    },
+    "reviewBody": review.fullContent,
+    "datePublished": "2024-02-15",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Garage Digital",
+      "url": "https://garage-digital.netlify.app",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://garage-digital.netlify.app/images/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://garage-digital.netlify.app/reviews/3"
+    }
+  }
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gti-gray-900 via-gti-gray-800 to-gti-gray-900">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <div className="min-h-screen bg-gradient-to-br from-gti-gray-900 via-gti-gray-800 to-gti-gray-900">
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}
         <div className="mb-8">
@@ -395,6 +532,7 @@ export default function ReviewPage() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </>
   )
 }
