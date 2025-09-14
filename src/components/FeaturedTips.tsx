@@ -51,7 +51,7 @@ export default function FeaturedTips() {
         <div className="flex items-center justify-between mb-12">
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-1 h-8 bg-gti-red-500 rounded-full"></div>
+              <div className="w-1 h-8 bg-gti-blue-500 rounded-full"></div>
               <h2 className="text-3xl md:text-4xl font-black text-white">
                 TIPS DE MECÁNICA
               </h2>
@@ -62,7 +62,7 @@ export default function FeaturedTips() {
           </div>
           <Link
             href="/tips"
-            className="hidden md:flex items-center space-x-2 text-gti-red-500 hover:text-gti-red-400 font-semibold transition-colors"
+            className="hidden md:flex items-center space-x-2 text-gti-blue-500 hover:text-gti-blue-400 font-semibold transition-colors"
           >
             <span>Ver todos</span>
             <ArrowRight className="w-4 h-4" />
@@ -76,14 +76,14 @@ export default function FeaturedTips() {
               className="blog-card rounded-xl overflow-hidden card-hover group"
             >
               <div className="relative">
-                <div className="h-48 bg-gradient-to-br from-gti-red-600 to-gti-red-800 flex items-center justify-center relative overflow-hidden">
+                <div className="h-48 bg-gradient-to-br from-gti-blue-600 to-gti-blue-800 flex items-center justify-center relative overflow-hidden">
                   <div className="absolute inset-0 bg-black/20"></div>
                   <div className="relative z-10 text-center">
                     <Wrench className="w-16 h-16 text-white mx-auto mb-2" />
                     <span className="text-white font-bold text-sm">TIPS TÉCNICOS</span>
                   </div>
                   {tip.trending && (
-                    <div className="absolute top-4 right-4 bg-gti-red-500 text-white px-2 py-1 rounded-full text-xs font-bold flex items-center space-x-1">
+                    <div className="absolute top-4 right-4 bg-gti-blue-500 text-white px-2 py-1 rounded-full text-xs font-bold flex items-center space-x-1">
                       <TrendingUp className="w-3 h-3" />
                       <span>TRENDING</span>
                     </div>
@@ -108,7 +108,7 @@ export default function FeaturedTips() {
                   </div>
                 </div>
                 
-                <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 group-hover:text-gti-red-400 transition-colors">
+                <h3 className="text-xl font-bold text-white mb-3 line-clamp-2 group-hover:text-gti-blue-400 transition-colors">
                   {tip.title}
                 </h3>
                 
@@ -116,14 +116,14 @@ export default function FeaturedTips() {
                   {tip.excerpt}
                 </p>
                 
-                <div className="flex items-center justify-between pt-4 border-t border-gti-red-500/20">
+                <div className="flex items-center justify-between pt-4 border-t border-gti-blue-500/20">
                   <div className="flex items-center text-sm text-gray-400">
                     <User className="w-4 h-4 mr-2" />
                     <span>{tip.author}</span>
                   </div>
                   <Link
                     href={`/tips/${tip.id}`}
-                    className="text-gti-red-500 hover:text-gti-red-400 font-semibold flex items-center space-x-1 transition-colors"
+                    className="text-gti-blue-500 hover:text-gti-blue-400 font-semibold flex items-center space-x-1 transition-colors"
                   >
                     <span>Leer más</span>
                     <ArrowRight className="w-4 h-4" />
@@ -137,7 +137,7 @@ export default function FeaturedTips() {
         <div className="text-center mt-12">
           <Link
             href="/tips"
-            className="inline-flex items-center space-x-2 bg-gti-red-500 hover:bg-gti-red-600 text-white font-bold px-8 py-4 rounded-lg transition-all duration-200 racing-glow"
+            className="inline-flex items-center space-x-2 bg-gti-blue-500 hover:bg-gti-blue-600 text-white font-bold px-8 py-4 rounded-lg transition-all duration-200 racing-glow"
           >
             <span>Ver Todos los Tips</span>
             <ArrowRight className="w-5 h-5" />

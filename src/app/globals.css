@@ -7,10 +7,11 @@
 
 :root {
   --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 17, 24, 39;
-  --background-end-rgb: 31, 41, 55;
-  --gti-red: 239, 68, 68;
-  --gti-black: 17, 24, 39;
+  --background-start-rgb: 24, 24, 27;
+  --background-end-rgb: 39, 39, 42;
+  --gti-blue: 14, 165, 233;
+  --gti-orange: 249, 115, 22;
+  --gti-gray: 39, 39, 42;
 }
 
 body {
@@ -29,9 +30,9 @@ body {
   }
 }
 
-/* Estilos personalizados para el tema racing GTI */
+/* Estilos personalizados para el tema automotriz moderno */
 .hero-gradient {
-  background: linear-gradient(135deg, #ef4444 0%, #dc2626 50%, #991b1b 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%);
   position: relative;
   overflow: hidden;
 }
@@ -49,50 +50,50 @@ body {
 
 .card-hover {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  border: 1px solid rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(14, 165, 233, 0.2);
 }
 
 .card-hover:hover {
   transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 25px 50px -12px rgba(239, 68, 68, 0.25), 0 0 0 1px rgba(239, 68, 68, 0.1);
-  border-color: rgba(239, 68, 68, 0.4);
+  box-shadow: 0 25px 50px -12px rgba(14, 165, 233, 0.25), 0 0 0 1px rgba(14, 165, 233, 0.1);
+  border-color: rgba(14, 165, 233, 0.4);
 }
 
 .racing-border {
   border: 2px solid transparent;
-  background: linear-gradient(135deg, #111827, #111827) padding-box,
-              linear-gradient(135deg, #ef4444, #dc2626) border-box;
+  background: linear-gradient(135deg, #27272a, #27272a) padding-box,
+              linear-gradient(135deg, #0ea5e9, #0284c7) border-box;
 }
 
 .racing-text {
-  background: linear-gradient(135deg, #ef4444, #f87171);
+  background: linear-gradient(135deg, #0ea5e9, #38bdf8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .racing-glow {
-  box-shadow: 0 0 20px rgba(239, 68, 68, 0.3);
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
 }
 
 .racing-pattern {
   background-image: 
-    linear-gradient(45deg, rgba(239, 68, 68, 0.1) 25%, transparent 25%),
-    linear-gradient(-45deg, rgba(239, 68, 68, 0.1) 25%, transparent 25%),
-    linear-gradient(45deg, transparent 75%, rgba(239, 68, 68, 0.1) 75%),
-    linear-gradient(-45deg, transparent 75%, rgba(239, 68, 68, 0.1) 75%);
+    linear-gradient(45deg, rgba(14, 165, 233, 0.1) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(14, 165, 233, 0.1) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(14, 165, 233, 0.1) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(14, 165, 233, 0.1) 75%);
   background-size: 20px 20px;
   background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
 }
 
 .blog-card {
-  background: rgba(17, 24, 39, 0.8);
+  background: rgba(39, 39, 42, 0.8);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(239, 68, 68, 0.2);
+  border: 1px solid rgba(14, 165, 233, 0.2);
 }
 
 .news-badge {
-  background: linear-gradient(135deg, #ef4444, #dc2626);
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
   color: white;
   font-weight: 700;
   text-transform: uppercase;

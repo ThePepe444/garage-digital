@@ -152,14 +152,14 @@ export default function TipPage() {
         <div className="mb-8">
           <Link 
             href="/tips" 
-            className="inline-flex items-center text-gti-red-500 hover:text-gti-red-400 transition-colors mb-4"
+            className="inline-flex items-center text-gti-blue-500 hover:text-gti-blue-400 transition-colors mb-4"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Volver a Tips
           </Link>
 
           <div className="flex items-center gap-2 mb-4">
-            <span className="bg-gti-red-500/20 text-gti-red-400 px-3 py-1 rounded-full text-sm font-medium">
+            <span className="bg-gti-blue-500/20 text-gti-blue-400 px-3 py-1 rounded-full text-sm font-medium">
               {tip.category}
             </span>
             <span className="bg-gti-gray-600/20 text-gti-gray-300 px-3 py-1 rounded-full text-sm">
@@ -201,7 +201,7 @@ export default function TipPage() {
 
         {/* Hero Image */}
         <div className="mb-8">
-          <div className="w-full h-96 bg-gradient-to-br from-gti-red-600 to-gti-red-800 rounded-xl flex items-center justify-center">
+          <div className="w-full h-96 bg-gradient-to-br from-gti-blue-600 to-gti-blue-800 rounded-xl flex items-center justify-center">
             <div className="text-center">
               <Shield className="w-24 h-24 text-white mx-auto mb-4" />
               <span className="text-white font-bold text-lg">TIPS DE SEGURIDAD</span>
@@ -212,7 +212,7 @@ export default function TipPage() {
         {/* Quick Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-gti-black-800/50 rounded-lg p-6 text-center">
-            <Shield className="w-8 h-8 text-gti-red-500 mx-auto mb-2" />
+            <Shield className="w-8 h-8 text-gti-blue-500 mx-auto mb-2" />
             <h3 className="text-lg font-bold text-white mb-1">Categoría</h3>
             <p className="text-2xl font-black text-gti-red-500">{tip.category}</p>
           </div>

@@ -15,13 +15,13 @@ export default function Header() {
   ]
 
   return (
-    <header className="bg-gti-black-900/95 backdrop-blur-md border-b border-gti-red-500/20 sticky top-0 z-50 racing-glow">
+    <header className="bg-gti-gray-900/95 backdrop-blur-md border-b border-gti-blue-500/20 sticky top-0 z-50 racing-glow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-gti-red-500 to-gti-red-600 rounded-lg flex items-center justify-center racing-glow">
+              <div className="w-10 h-10 bg-gradient-to-r from-gti-blue-500 to-gti-blue-600 rounded-lg flex items-center justify-center racing-glow">
                 <Car className="w-6 h-6 text-white" />
               </div>
               <div className="flex flex-col">
@@ -39,7 +39,7 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="flex items-center space-x-2 text-gray-300 hover:text-white hover:bg-gti-red-500/20 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 border border-transparent hover:border-gti-red-500/30"
+                  className="flex items-center space-x-2 text-gray-300 hover:text-white hover:bg-gti-blue-500/20 px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 border border-transparent hover:border-gti-blue-500/30"
                 >
                   <Icon className="w-4 h-4" />
                   <span>{item.name}</span>
@@ -52,7 +52,7 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-300 hover:text-white focus:outline-none focus:text-white p-2 rounded-lg hover:bg-gti-red-500/20 transition-colors"
+              className="text-gray-300 hover:text-white focus:outline-none focus:text-white p-2 rounded-lg hover:bg-gti-blue-500/20 transition-colors"
             >
               {isMenuOpen ? (
                 <X className="w-6 h-6" />
@@ -66,14 +66,14 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gti-black-800/95 backdrop-blur-md border-t border-gti-red-500/20">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gti-gray-800/95 backdrop-blur-md border-t border-gti-blue-500/20">
               {navigation.map((item) => {
                 const Icon = item.icon
                 return (
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="flex items-center space-x-3 text-gray-300 hover:text-white hover:bg-gti-red-500/20 block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200"
+                    className="flex items-center space-x-3 text-gray-300 hover:text-white hover:bg-gti-blue-500/20 block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     <Icon className="w-5 h-5" />
