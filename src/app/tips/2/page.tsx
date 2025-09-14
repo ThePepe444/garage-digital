@@ -253,7 +253,7 @@ export default function TipPage() {
                     <td className="px-6 py-4 text-sm text-gray-300 font-medium">Pastillas</td>
                     <td className="px-6 py-4 text-sm text-white">Generan fricción para detener el vehículo</td>
                     <td className="px-6 py-4 text-sm text-white">20,000-60,000 km</td>
-                    <td className="px-6 py-4 text-sm text-white">Cuando quedan < 3mm</td>
+                    <td className="px-6 py-4 text-sm text-white">Cuando quedan &lt; 3mm</td>
                   </tr>
                   <tr className="hover:bg-gti-black-700/30 transition-colors">
                     <td className="px-6 py-4 text-sm text-gray-300 font-medium">Discos</td>
