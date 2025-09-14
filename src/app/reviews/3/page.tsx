@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Star, ArrowLeft, Car, Fuel, Gauge, MapPin, Calendar, User, Clock, Eye, Battery, Zap } from 'lucide-react'
+import { Star, ArrowLeft, Car, Fuel, Gauge, MapPin, Calendar, User, Clock, Eye, Battery, Zap, Shield } from 'lucide-react'
 
 export default function ReviewPage() {
   const review = {
