@@ -65,6 +65,9 @@ export default function RootLayout({
 
   return (
     <html lang="es">
+      <head>
+        <meta name="google-site-verification" content="nK3Q2NqtHP3VuIiY7t1GRCy4rosQQ7o_qddqybkjUpQ" />
+      </head>
       <body className={inter.className}>
         <GoogleTagManager gtmId={gtmId} />
         <noscript>
