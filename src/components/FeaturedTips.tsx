@@ -41,6 +41,32 @@ export default function FeaturedTips() {
       featured: true,
       date: '2024-02-10',
       location: 'CDMX'
+    },
+    {
+      id: 4,
+      title: 'Cómo Cambiar el Aceite del Motor: Guía Paso a Paso',
+      excerpt: 'Aprende a cambiar el aceite de tu vehículo de forma segura y correcta. Incluye tipos de aceite recomendados para México, herramientas necesarias y cronograma de mantenimiento.',
+      category: 'Motor',
+      readTime: '8 min',
+      author: 'Emanuel P',
+      views: '42.1k',
+      trending: true,
+      featured: true,
+      date: '2024-02-15',
+      location: 'CDMX'
+    },
+    {
+      id: 5,
+      title: 'Cómo Detectar y Solucionar Problemas de Neumáticos',
+      excerpt: 'Guía completa para identificar desgaste irregular, problemas de alineación, presión incorrecta y cuándo cambiar tus neumáticos. Especialmente importante para las carreteras mexicanas.',
+      category: 'Neumáticos',
+      readTime: '7 min',
+      author: 'Emanuel P',
+      views: '38.7k',
+      trending: true,
+      featured: true,
+      date: '2024-02-20',
+      location: 'CDMX'
     }
   ]
 

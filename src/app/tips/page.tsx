@@ -94,6 +94,42 @@ export default function TipsPage() {
         'Protege la batería del sol excesivo',
         'Revisa el nivel de electrolito si aplica'
       ]
+    },
+    {
+      id: 4,
+      title: 'Cómo Cambiar el Aceite del Motor: Guía Paso a Paso',
+      excerpt: 'Aprende a cambiar el aceite de tu vehículo de forma segura y correcta. Incluye tipos de aceite recomendados para México, herramientas necesarias y cronograma de mantenimiento.',
+      category: 'Motor',
+      readTime: '8 min',
+      author: 'Emanuel P',
+      views: '42.1k',
+      trending: true,
+      date: '2024-02-15',
+      location: 'CDMX',
+      content: [
+        'Usa el tipo de aceite recomendado por el fabricante',
+        'Cambia el filtro de aceite en cada cambio',
+        'Verifica el nivel después de 24 horas',
+        'Mantén un cronograma regular de cambios'
+      ]
+    },
+    {
+      id: 5,
+      title: 'Cómo Detectar y Solucionar Problemas de Neumáticos',
+      excerpt: 'Guía completa para identificar desgaste irregular, problemas de alineación, presión incorrecta y cuándo cambiar tus neumáticos. Especialmente importante para las carreteras mexicanas.',
+      category: 'Neumáticos',
+      readTime: '7 min',
+      author: 'Emanuel P',
+      views: '38.7k',
+      trending: true,
+      date: '2024-02-20',
+      location: 'CDMX',
+      content: [
+        'Revisa la presión de los neumáticos semanalmente',
+        'Inspecciona el desgaste de la banda de rodamiento',
+        'Rota los neumáticos cada 10,000 km',
+        'Verifica la alineación si hay desgaste irregular'
+      ]
     }
   ]
 

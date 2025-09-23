@@ -77,6 +77,26 @@ export const latestNews: ContentItem[] = [
     url: '/tips/3'
   },
   {
+    id: 4,
+    title: 'Cómo Cambiar el Aceite del Motor: Guía Paso a Paso',
+    excerpt: 'Aprende a cambiar el aceite de tu vehículo de forma segura y correcta. Incluye tipos de aceite recomendados para México, herramientas necesarias y cronograma de mantenimiento.',
+    type: 'tip',
+    author: 'Emanuel P',
+    date: '2024-02-15',
+    category: 'Motor',
+    url: '/tips/4'
+  },
+  {
+    id: 5,
+    title: 'Cómo Detectar y Solucionar Problemas de Neumáticos',
+    excerpt: 'Guía completa para identificar desgaste irregular, problemas de alineación, presión incorrecta y cuándo cambiar tus neumáticos. Especialmente importante para las carreteras mexicanas.',
+    type: 'tip',
+    author: 'Emanuel P',
+    date: '2024-02-20',
+    category: 'Neumáticos',
+    url: '/tips/5'
+  },
+  {
     id: 1,
     title: 'Nissan Versa vs Chevrolet Aveo: ¿Cuál Elegir en México?',
     excerpt: 'Comparación detallada entre los dos sedanes más populares del mercado mexicano, analizando precio, rendimiento y características.',
