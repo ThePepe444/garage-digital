@@ -451,8 +451,8 @@ export default function ReviewPage() {
                 <tbody className="divide-y divide-gti-blue-500/10">
                   <tr className="hover:bg-gti-gray-700/30 transition-colors">
                     <td className="px-6 py-4 text-sm text-gray-300 font-medium">Pantalla Central</td>
-                    <td className="px-6 py-4 text-sm text-green-400">✓ 10.1"</td>
-                    <td className="px-6 py-4 text-sm text-green-400">✓ 10.1"</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ 10.1&quot;</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ 10.1&quot;</td>
                     <td className="px-6 py-4 text-sm text-white">Giratoria con apps</td>
                   </tr>
                   <tr className="hover:bg-gti-gray-700/30 transition-colors">
@@ -469,8 +469,8 @@ export default function ReviewPage() {
                   </tr>
                   <tr className="hover:bg-gti-gray-700/30 transition-colors">
                     <td className="px-6 py-4 text-sm text-gray-300 font-medium">Sistema de Voz</td>
-                    <td className="px-6 py-4 text-sm text-green-400">✓ "Hi BYD"</td>
-                    <td className="px-6 py-4 text-sm text-green-400">✓ "Hi BYD"</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ &quot;Hi BYD&quot;</td>
+                    <td className="px-6 py-4 text-sm text-green-400">✓ &quot;Hi BYD&quot;</td>
                     <td className="px-6 py-4 text-sm text-white">Control manos libres</td>
                   </tr>
                   <tr className="hover:bg-gti-gray-700/30 transition-colors">
