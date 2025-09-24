@@ -55,173 +55,173 @@ export default function CambioAceitePage() {
     content: `
       El cambio de aceite es uno de los mantenimientos más importantes para tu vehículo. En México, donde las condiciones climáticas y de manejo pueden ser extremas, es crucial mantener un cronograma regular de cambios de aceite para proteger el motor y garantizar un rendimiento óptimo.
 
-      ## ¿Por qué es Importante el Cambio de Aceite?
+      ¿Por qué es Importante el Cambio de Aceite?
 
       El aceite del motor cumple múltiples funciones esenciales:
-      - **Lubricación**: Reduce la fricción entre las piezas móviles
-      - **Refrigeración**: Ayuda a disipar el calor del motor
-      - **Limpieza**: Transporta partículas y residuos al filtro
-      - **Protección**: Previene la corrosión y el desgaste
+      - Lubricación: Reduce la fricción entre las piezas móviles
+      - Refrigeración: Ayuda a disipar el calor del motor
+      - Limpieza: Transporta partículas y residuos al filtro
+      - Protección: Previene la corrosión y el desgaste
 
-      ## Tipos de Aceite Recomendados para México
+      Tipos de Aceite Recomendados para México
 
-      ### Aceites Convencionales
-      - **Viscosidad**: 10W-30, 10W-40
-      - **Cambio**: Cada 5,000 km o 3 meses
-      - **Ideal para**: Vehículos con más de 100,000 km
+      Aceites Convencionales
+      - Viscosidad: 10W-30, 10W-40
+      - Cambio: Cada 5,000 km o 3 meses
+      - Ideal para: Vehículos con más de 100,000 km
 
-      ### Aceites Sintéticos
-      - **Viscosidad**: 5W-30, 5W-40
-      - **Cambio**: Cada 10,000 km o 6 meses
-      - **Ideal para**: Vehículos nuevos y de alto rendimiento
+      Aceites Sintéticos
+      - Viscosidad: 5W-30, 5W-40
+      - Cambio: Cada 10,000 km o 6 meses
+      - Ideal para: Vehículos nuevos y de alto rendimiento
 
-      ### Aceites Semi-Sintéticos
-      - **Viscosidad**: 10W-30, 10W-40
-      - **Cambio**: Cada 7,500 km o 4 meses
-      - **Ideal para**: Equilibrio entre costo y rendimiento
+      Aceites Semi-Sintéticos
+      - Viscosidad: 10W-30, 10W-40
+      - Cambio: Cada 7,500 km o 4 meses
+      - Ideal para: Equilibrio entre costo y rendimiento
 
-      ## Herramientas Necesarias
+      Herramientas Necesarias
 
-      ### Herramientas Básicas
+      Herramientas Básicas
       - Llave para filtro de aceite
       - Llave de tuercas o llave de tubo
       - Embudo para aceite
       - Guantes de trabajo
       - Gafas de seguridad
 
-      ### Herramientas Adicionales
+      Herramientas Adicionales
       - Gato hidráulico o rampas
       - Soporte de seguridad
       - Contenedor para aceite usado
       - Trapos o papel absorbente
 
-      ## Proceso Paso a Paso
+      Proceso Paso a Paso
 
-      ### 1. Preparación
+      1. Preparación
       - Estaciona el vehículo en terreno nivelado
       - Asegúrate de que el motor esté frío
       - Coloca el gato o rampas de forma segura
       - Usa soportes de seguridad
 
-      ### 2. Drenado del Aceite
+      2. Drenado del Aceite
       - Localiza el tapón de drenaje en el cárter
       - Coloca el contenedor debajo del tapón
       - Retira el tapón con cuidado
       - Deja drenar completamente (15-20 minutos)
 
-      ### 3. Cambio del Filtro
+      3. Cambio del Filtro
       - Localiza el filtro de aceite
       - Usa la llave especial para retirarlo
       - Limpia la superficie de contacto
       - Aplica aceite nuevo en la junta del filtro
       - Instala el filtro nuevo (aprieta a mano + 3/4 de vuelta)
 
-      ### 4. Llenado de Aceite
+      4. Llenado de Aceite
       - Reinstala el tapón de drenaje
       - Vierte el aceite nuevo usando el embudo
       - Verifica el nivel con la varilla
       - Arranca el motor por 30 segundos
       - Verifica el nivel nuevamente
 
-      ## Cronograma de Mantenimiento
+      Cronograma de Mantenimiento
 
-      ### Vehículos en Ciudad (CDMX, Guadalajara, Monterrey)
-      - **Aceite convencional**: Cada 4,000 km
-      - **Aceite sintético**: Cada 8,000 km
-      - **Filtro de aceite**: En cada cambio
+      Vehículos en Ciudad (CDMX, Guadalajara, Monterrey)
+      - Aceite convencional: Cada 4,000 km
+      - Aceite sintético: Cada 8,000 km
+      - Filtro de aceite: En cada cambio
 
-      ### Vehículos en Carretera
-      - **Aceite convencional**: Cada 5,000 km
-      - **Aceite sintético**: Cada 10,000 km
-      - **Filtro de aceite**: En cada cambio
+      Vehículos en Carretera
+      - Aceite convencional: Cada 5,000 km
+      - Aceite sintético: Cada 10,000 km
+      - Filtro de aceite: En cada cambio
 
-      ### Condiciones Extremas
-      - **Polvo excesivo**: Reducir intervalos en 25%
-      - **Tráfico intenso**: Reducir intervalos en 20%
-      - **Clima muy caliente**: Usar aceite de mayor viscosidad
+      Condiciones Extremas
+      - Polvo excesivo: Reducir intervalos en 25%
+      - Tráfico intenso: Reducir intervalos en 20%
+      - Clima muy caliente: Usar aceite de mayor viscosidad
 
-      ## Señales de que Necesitas Cambiar el Aceite
+      Señales de que Necesitas Cambiar el Aceite
 
-      ### Indicadores Visuales
+      Indicadores Visuales
       - Aceite muy oscuro o negro
       - Consistencia espesa o grumosa
       - Nivel bajo en la varilla
       - Luces de advertencia en el tablero
 
-      ### Indicadores de Rendimiento
+      Indicadores de Rendimiento
       - Motor más ruidoso
       - Menor rendimiento de combustible
       - Humo excesivo del escape
       - Vibraciones anormales
 
-      ## Errores Comunes a Evitar
+      Errores Comunes a Evitar
 
-      ### Errores de Cantidad
+      Errores de Cantidad
       - Agregar demasiado aceite
       - No agregar suficiente aceite
       - No verificar el nivel después del cambio
 
-      ### Errores de Calidad
+      Errores de Calidad
       - Mezclar diferentes tipos de aceite
       - Usar aceite de viscosidad incorrecta
       - No cambiar el filtro de aceite
 
-      ### Errores de Procedimiento
+      Errores de Procedimiento
       - Cambiar aceite con motor caliente
       - No limpiar la superficie del filtro
       - Apretar demasiado el filtro
 
-      ## Disposición del Aceite Usado
+      Disposición del Aceite Usado
 
-      ### Opciones de Reciclaje
+      Opciones de Reciclaje
       - Llevar a centros de reciclaje autorizados
       - Entregar en talleres mecánicos
       - Usar servicios de recolección municipal
-      - **Nunca** verter en drenajes o suelo
+      - Nunca verter en drenajes o suelo
 
-      ## Costos Aproximados en México
+      Costos Aproximados en México
 
-      ### Aceite Convencional
-      - **Aceite**: $200-400 MXN (4-5 litros)
-      - **Filtro**: $150-300 MXN
-      - **Total**: $350-700 MXN
+      Aceite Convencional
+      - Aceite: $200-400 MXN (4-5 litros)
+      - Filtro: $150-300 MXN
+      - Total: $350-700 MXN
 
-      ### Aceite Sintético
-      - **Aceite**: $400-800 MXN (4-5 litros)
-      - **Filtro**: $150-300 MXN
-      - **Total**: $550-1,100 MXN
+      Aceite Sintético
+      - Aceite: $400-800 MXN (4-5 litros)
+      - Filtro: $150-300 MXN
+      - Total: $550-1,100 MXN
 
-      ### Servicio en Taller
-      - **Cambio básico**: $500-800 MXN
-      - **Cambio premium**: $800-1,200 MXN
+      Servicio en Taller
+      - Cambio básico: $500-800 MXN
+      - Cambio premium: $800-1,200 MXN
 
-      ## Beneficios del Mantenimiento Regular
+      Beneficios del Mantenimiento Regular
 
-      ### Beneficios Técnicos
+      Beneficios Técnicos
       - Mayor vida útil del motor
       - Mejor rendimiento de combustible
       - Reducción de emisiones contaminantes
       - Menor desgaste de componentes
 
-      ### Beneficios Económicos
+      Beneficios Económicos
       - Menor costo de reparaciones
       - Mayor valor de reventa
       - Menor consumo de combustible
       - Reducción de averías inesperadas
 
-      ## Consejos Específicos para México
+      Consejos Específicos para México
 
-      ### Clima Caliente
+      Clima Caliente
       - Usar aceites de mayor viscosidad en verano
       - Verificar niveles más frecuentemente
       - Proteger el motor del sol excesivo
 
-      ### Carreteras con Polvo
+      Carreteras con Polvo
       - Cambiar filtro de aire más frecuentemente
       - Usar aceites de mayor calidad
       - Limpiar el compartimento del motor
 
-      ### Tráfico Intenso
+      Tráfico Intenso
       - Reducir intervalos de cambio
       - Usar aceites sintéticos
       - Verificar temperatura del motor

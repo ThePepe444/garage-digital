@@ -55,204 +55,204 @@ export default function ProblemasNeumaticosPage() {
     content: `
       Los neumáticos son el único punto de contacto entre tu vehículo y la carretera. En México, donde las condiciones de las carreteras pueden ser variables, es crucial mantener los neumáticos en perfecto estado para garantizar seguridad, rendimiento y eficiencia de combustible.
 
-      ## Importancia del Mantenimiento de Neumáticos
+      Importancia del Mantenimiento de Neumáticos
 
       Los neumáticos en buen estado proporcionan:
-      - **Seguridad**: Mejor tracción y frenado
-      - **Eficiencia**: Menor consumo de combustible
-      - **Comodidad**: Mejor manejo y confort
-      - **Economía**: Mayor duración y menor desgaste
+      - Seguridad: Mejor tracción y frenado
+      - Eficiencia: Menor consumo de combustible
+      - Comodidad: Mejor manejo y confort
+      - Economía: Mayor duración y menor desgaste
 
-      ## Tipos de Desgaste y sus Causas
+      Tipos de Desgaste y sus Causas
 
-      ### Desgaste Central
-      - **Causa**: Presión excesiva
-      - **Síntoma**: Banda de rodamiento desgastada en el centro
-      - **Solución**: Reducir presión a la recomendada
+      Desgaste Central
+      - Causa: Presión excesiva
+      - Síntoma: Banda de rodamiento desgastada en el centro
+      - Solución: Reducir presión a la recomendada
 
-      ### Desgaste en los Bordes
-      - **Causa**: Presión insuficiente
-      - **Síntoma**: Desgaste en los lados exteriores
-      - **Solución**: Aumentar presión a la recomendada
+      Desgaste en los Bordes
+      - Causa: Presión insuficiente
+      - Síntoma: Desgaste en los lados exteriores
+      - Solución: Aumentar presión a la recomendada
 
-      ### Desgaste Irregular
-      - **Causa**: Problemas de alineación
-      - **Síntoma**: Patrones de desgaste asimétricos
-      - **Solución**: Realizar alineación y balanceo
+      Desgaste Irregular
+      - Causa: Problemas de alineación
+      - Síntoma: Patrones de desgaste asimétricos
+      - Solución: Realizar alineación y balanceo
 
-      ### Desgaste en Escamas
-      - **Causa**: Problemas de suspensión
-      - **Síntoma**: Desgaste en forma de escamas
-      - **Solución**: Revisar amortiguadores y suspensión
+      Desgaste en Escamas
+      - Causa: Problemas de suspensión
+      - Síntoma: Desgaste en forma de escamas
+      - Solución: Revisar amortiguadores y suspensión
 
-      ## Presión Correcta de Neumáticos
+      Presión Correcta de Neumáticos
 
-      ### Cómo Verificar la Presión
+      Cómo Verificar la Presión
       - Usar un manómetro de calidad
       - Verificar con neumáticos fríos
       - Revisar la presión recomendada en el manual
       - Verificar mensualmente
 
-      ### Presiones Recomendadas por Tipo de Vehículo
+      Presiones Recomendadas por Tipo de Vehículo
 
-      #### Sedanes Compactos (Nissan Versa, Honda City)
-      - **Delanteros**: 32-35 PSI
-      - **Traseros**: 30-33 PSI
-      - **Verificación**: Cada 2 semanas
+      Sedanes Compactos (Nissan Versa, Honda City)
+      - Delanteros: 32-35 PSI
+      - Traseros: 30-33 PSI
+      - Verificación: Cada 2 semanas
 
-      #### Sedanes Medianos (VW Jetta, Toyota Corolla)
-      - **Delanteros**: 35-38 PSI
-      - **Traseros**: 33-36 PSI
-      - **Verificación**: Cada 2 semanas
+      Sedanes Medianos (VW Jetta, Toyota Corolla)
+      - Delanteros: 35-38 PSI
+      - Traseros: 33-36 PSI
+      - Verificación: Cada 2 semanas
 
-      #### SUVs y Crossovers
-      - **Delanteros**: 38-42 PSI
-      - **Traseros**: 36-40 PSI
-      - **Verificación**: Cada 2 semanas
+      SUVs y Crossovers
+      - Delanteros: 38-42 PSI
+      - Traseros: 36-40 PSI
+      - Verificación: Cada 2 semanas
 
-      ## Rotación de Neumáticos
+      Rotación de Neumáticos
 
-      ### Patrón de Rotación Recomendado
-      - **Tracción delantera**: Cruzar traseros hacia adelante
-      - **Tracción trasera**: Cruzar delanteros hacia atrás
-      - **Tracción 4x4**: Rotación cruzada completa
-      - **Frecuencia**: Cada 10,000 km
+      Patrón de Rotación Recomendado
+      - Tracción delantera: Cruzar traseros hacia adelante
+      - Tracción trasera: Cruzar delanteros hacia atrás
+      - Tracción 4x4: Rotación cruzada completa
+      - Frecuencia: Cada 10,000 km
 
-      ### Beneficios de la Rotación
+      Beneficios de la Rotación
       - Desgaste uniforme
       - Mayor duración
       - Mejor rendimiento
       - Ahorro de dinero
 
-      ## Inspección Visual de Neumáticos
+      Inspección Visual de Neumáticos
 
-      ### Elementos a Revisar
-      - **Profundidad de la banda**: Mínimo 1.6 mm
-      - **Grietas o cortes**: En la banda y laterales
-      - **Bultos o deformaciones**: En la estructura
-      - **Objetos incrustados**: Clavos, tornillos, piedras
+      Elementos a Revisar
+      - Profundidad de la banda: Mínimo 1.6 mm
+      - Grietas o cortes: En la banda y laterales
+      - Bultos o deformaciones: En la estructura
+      - Objetos incrustados: Clavos, tornillos, piedras
 
-      ### Prueba de la Moneda
+      Prueba de la Moneda
       - Usar una moneda de $1 peso
       - Insertar en la banda de rodamiento
       - Si se ve la cabeza completa, cambiar neumático
       - Profundidad mínima: 1.6 mm
 
-      ## Problemas Comunes en México
+      Problemas Comunes en México
 
-      ### Carreteras con Baches
-      - **Problema**: Daños por impacto
-      - **Síntoma**: Bultos en los laterales
-      - **Prevención**: Reducir velocidad en baches
-      - **Solución**: Cambiar neumático dañado
+      Carreteras con Baches
+      - Problema: Daños por impacto
+      - Síntoma: Bultos en los laterales
+      - Prevención: Reducir velocidad en baches
+      - Solución: Cambiar neumático dañado
 
-      ### Clima Caliente
-      - **Problema**: Desgaste acelerado
-      - **Síntoma**: Banda de rodamiento blanda
-      - **Prevención**: Usar neumáticos de verano
-      - **Solución**: Verificar presión más frecuentemente
+      Clima Caliente
+      - Problema: Desgaste acelerado
+      - Síntoma: Banda de rodamiento blanda
+      - Prevención: Usar neumáticos de verano
+      - Solución: Verificar presión más frecuentemente
 
-      ### Polvo y Arena
-      - **Problema**: Desgaste abrasivo
-      - **Síntoma**: Banda de rodamiento lisa
-      - **Prevención**: Limpiar neumáticos regularmente
-      - **Solución**: Usar neumáticos de mayor calidad
+      Polvo y Arena
+      - Problema: Desgaste abrasivo
+      - Síntoma: Banda de rodamiento lisa
+      - Prevención: Limpiar neumáticos regularmente
+      - Solución: Usar neumáticos de mayor calidad
 
-      ## Cuándo Cambiar los Neumáticos
+      Cuándo Cambiar los Neumáticos
 
-      ### Indicadores de Desgaste
-      - **Profundidad**: Menos de 1.6 mm
-      - **Edad**: Más de 6 años
-      - **Daños**: Grietas, bultos, cortes
-      - **Desgaste irregular**: Después de alineación
+      Indicadores de Desgaste
+      - Profundidad: Menos de 1.6 mm
+      - Edad: Más de 6 años
+      - Daños: Grietas, bultos, cortes
+      - Desgaste irregular: Después de alineación
 
-      ### Señales de Advertencia
+      Señales de Advertencia
       - Vibraciones en el volante
       - Ruido excesivo al rodar
       - Dificultad para mantener dirección
       - Mayor distancia de frenado
 
-      ## Tipos de Neumáticos para México
+      Tipos de Neumáticos para México
 
-      ### Neumáticos de Verano
-      - **Ideal para**: Clima cálido y seco
-      - **Ventajas**: Mejor tracción en seco
-      - **Desventajas**: Menor rendimiento en lluvia
-      - **Recomendado**: Todo el año en México
+      Neumáticos de Verano
+      - Ideal para: Clima cálido y seco
+      - Ventajas: Mejor tracción en seco
+      - Desventajas: Menor rendimiento en lluvia
+      - Recomendado: Todo el año en México
 
-      ### Neumáticos Todo Clima
-      - **Ideal para**: Variaciones climáticas
-      - **Ventajas**: Versatilidad
-      - **Desventajas**: Compromiso en rendimiento
-      - **Recomendado**: Para uso general
+      Neumáticos Todo Clima
+      - Ideal para: Variaciones climáticas
+      - Ventajas: Versatilidad
+      - Desventajas: Compromiso en rendimiento
+      - Recomendado: Para uso general
 
-      ### Neumáticos de Alto Rendimiento
-      - **Ideal para**: Vehículos deportivos
-      - **Ventajas**: Mejor manejo
-      - **Desventajas**: Mayor desgaste
-      - **Recomendado**: VW Jetta GLI, autos deportivos
+      Neumáticos de Alto Rendimiento
+      - Ideal para: Vehículos deportivos
+      - Ventajas: Mejor manejo
+      - Desventajas: Mayor desgaste
+      - Recomendado: VW Jetta GLI, autos deportivos
 
-      ## Costos de Mantenimiento en México
+      Costos de Mantenimiento en México
 
-      ### Servicios Básicos
-      - **Verificación de presión**: Gratis
-      - **Rotación**: $200-400 MXN
-      - **Balanceo**: $300-500 MXN
-      - **Alineación**: $400-800 MXN
+      Servicios Básicos
+      - Verificación de presión: Gratis
+      - Rotación: $200-400 MXN
+      - Balanceo: $300-500 MXN
+      - Alineación: $400-800 MXN
 
-      ### Neumáticos por Categoría
-      - **Económicos**: $1,500-2,500 MXN c/u
-      - **Medios**: $2,500-4,000 MXN c/u
-      - **Premium**: $4,000-6,000 MXN c/u
-      - **Deportivos**: $5,000-8,000 MXN c/u
+      Neumáticos por Categoría
+      - Económicos: $1,500-2,500 MXN c/u
+      - Medios: $2,500-4,000 MXN c/u
+      - Premium: $4,000-6,000 MXN c/u
+      - Deportivos: $5,000-8,000 MXN c/u
 
-      ## Mantenimiento Preventivo
+      Mantenimiento Preventivo
 
-      ### Rutina Semanal
+      Rutina Semanal
       - Verificar presión visualmente
       - Inspeccionar daños obvios
       - Limpiar neumáticos
       - Revisar objetos incrustados
 
-      ### Rutina Mensual
+      Rutina Mensual
       - Medir presión con manómetro
       - Inspección detallada
       - Verificar profundidad
       - Limpieza profunda
 
-      ### Rutina Trimestral
+      Rutina Trimestral
       - Rotación de neumáticos
       - Balanceo
       - Alineación
       - Inspección profesional
 
-      ## Consejos de Conducción
+      Consejos de Conducción
 
-      ### Para Prolongar la Vida
+      Para Prolongar la Vida
       - Evitar frenadas bruscas
       - No acelerar en curvas
       - Mantener velocidad constante
       - Evitar sobrecarga del vehículo
 
-      ### En Condiciones Adversas
+      En Condiciones Adversas
       - Reducir velocidad en lluvia
       - Aumentar distancia de seguimiento
       - Evitar maniobras bruscas
       - Usar neumáticos apropiados
 
-      ## Tecnologías Modernas
+      Tecnologías Modernas
 
-      ### Sistemas TPMS
-      - **Función**: Monitoreo de presión
-      - **Ventaja**: Alerta temprana
-      - **Mantenimiento**: Verificar sensores
-      - **Costo**: $500-1,000 MXN por sensor
+      Sistemas TPMS
+      - Función: Monitoreo de presión
+      - Ventaja: Alerta temprana
+      - Mantenimiento: Verificar sensores
+      - Costo: $500-1,000 MXN por sensor
 
-      ### Neumáticos Run-Flat
-      - **Función**: Rodar sin aire
-      - **Ventaja**: Seguridad adicional
-      - **Desventaja**: Mayor costo
-      - **Recomendado**: Vehículos premium
+      Neumáticos Run-Flat
+      - Función: Rodar sin aire
+      - Ventaja: Seguridad adicional
+      - Desventaja: Mayor costo
+      - Recomendado: Vehículos premium
 
       El mantenimiento adecuado de los neumáticos no solo garantiza tu seguridad, sino que también mejora el rendimiento de tu vehículo y reduce los costos de operación. Con esta guía, podrás identificar problemas temprano y mantener tus neumáticos en óptimas condiciones para las carreteras mexicanas.
     `
