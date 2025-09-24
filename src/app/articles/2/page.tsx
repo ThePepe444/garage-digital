@@ -52,22 +52,22 @@ export default function MejoresElectricos2025Page() {
     date: '2024-02-28',
     location: 'CDMX',
     content: `
-      El mercado mexicano de autos eléctricos está en plena expansión. Para 2025, más de 20 modelos estarán disponibles, desde opciones económicas hasta vehículos de lujo. Esta guía te ayudará a elegir el mejor auto eléctrico según tu presupuesto y necesidades.
+      El mercado mexicano de autos eléctricos está en **plena expansión**. Para 2025, más de **20 modelos** estarán disponibles, desde opciones económicas hasta vehículos de lujo. Esta guía te ayudará a elegir el mejor auto eléctrico según tu presupuesto y necesidades.
 
-      El crecimiento del mercado eléctrico en México ha sido exponencial, con ventas que superaron las 15,000 unidades en 2024. Para 2025, se espera que esta cifra se duplique, gracias a nuevas marcas, modelos más accesibles y una infraestructura de carga en constante expansión.
+      El crecimiento del mercado eléctrico en México ha sido **exponencial**, con ventas que superaron las **15,000 unidades** en 2024. Para 2025, se espera que esta cifra se **duplique**, gracias a nuevas marcas, modelos más accesibles y una infraestructura de carga en constante expansión.
 
-      Ranking por Categorías de Precio
+      ## Ranking por Categorías de Precio
 
-      Categoría Económica (Menos de $500,000 MXN)
+      ### Categoría Económica (Menos de $500,000 MXN)
 
-      BYD Dolphin Mini - El Más Accesible
-      - Precio: $399,000 MXN
-      - Autonomía: 300 km (WLTP)
-      - Motor: 55 kW / 135 N·m
-      - Carga rápida: 30 min (30-80%)
-      - Características: Pantalla giratoria 10.1", CarPlay/Android Auto
-      - Pros: Precio accesible, tecnología avanzada, garantía 6 años
-      - Contras: Autonomía limitada, espacio reducido
+      #### BYD Dolphin Mini - El Más Accesible
+      - **Precio**: $399,000 MXN
+      - **Autonomía**: 300 km (WLTP)
+      - **Motor**: 55 kW / 135 N·m
+      - **Carga rápida**: 30 min (30-80%)
+      - **Características**: Pantalla giratoria 10.1", CarPlay/Android Auto
+      - **Pros**: Precio accesible, tecnología avanzada, garantía 6 años
+      - **Contras**: Autonomía limitada, espacio reducido
 
       Chevrolet Bolt EV - La Opción Americana
       - Precio: $450,000 MXN

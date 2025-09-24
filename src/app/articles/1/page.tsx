@@ -52,72 +52,72 @@ export default function VentajasDesventajasElectricosPage() {
     date: '2024-02-25',
     location: 'CDMX',
     content: `
-      Los vehículos eléctricos están transformando la movilidad en México. Con marcas como BYD, Tesla y otras estableciéndose en el mercado mexicano, es crucial entender las ventajas y desventajas reales de estos vehículos en nuestro contexto nacional.
+      Los vehículos eléctricos están transformando la movilidad en México. Con marcas como **BYD, Tesla** y otras estableciéndose en el mercado mexicano, es crucial entender las ventajas y desventajas reales de estos vehículos en nuestro contexto nacional.
 
-      El mercado mexicano de autos eléctricos ha experimentado un crecimiento significativo en 2024, con más de 15,000 unidades vendidas, representando un aumento del 180% respecto al año anterior. Sin embargo, la adopción masiva aún enfrenta desafíos únicos en México.
+      El mercado mexicano de autos eléctricos ha experimentado un crecimiento significativo en 2024, con más de **15,000 unidades vendidas**, representando un aumento del **180%** respecto al año anterior. Sin embargo, la adopción masiva aún enfrenta desafíos únicos en México.
 
-      Ventajas de los Autos Eléctricos en México
+      ## Ventajas de los Autos Eléctricos en México
 
-      Ahorro en Combustible
-      - Costo por kilómetro: $0.50-1.00 MXN vs $3.50-4.50 MXN en gasolina
-      - Ahorro mensual promedio: $2,000-4,000 MXN
-      - Recuperación de inversión: 3-5 años
-      - Exención de verificación vehicular en CDMX
+      ### Ahorro en Combustible
+      - **Costo por kilómetro**: $0.50-1.00 MXN vs $3.50-4.50 MXN en gasolina
+      - **Ahorro mensual promedio**: $2,000-4,000 MXN
+      - **Recuperación de inversión**: 3-5 años
+      - **Exención de verificación vehicular** en CDMX
 
-      Mantenimiento Reducido
+      ### Mantenimiento Reducido
       - Sin cambios de aceite
       - Sin filtros de combustible
       - Sin correas de distribución
-      - Menos piezas móviles = menos desgaste
-      - Ahorro anual en mantenimiento: $8,000-15,000 MXN
+      - **Menos piezas móviles** = menos desgaste
+      - **Ahorro anual en mantenimiento**: $8,000-15,000 MXN
 
-      Beneficios Ambientales
-      - Cero emisiones directas
+      ### Beneficios Ambientales
+      - **Cero emisiones directas**
       - Contribución a la calidad del aire
       - Cumplimiento con normativas ambientales
       - Acceso a programas de incentivos gubernamentales
 
-      Experiencia de Conducción
-      - Aceleración instantánea y suave
-      - Operación silenciosa
+      ### Experiencia de Conducción
+      - **Aceleración instantánea** y suave
+      - **Operación silenciosa**
       - Tecnología avanzada de serie
       - Conectividad y actualizaciones OTA
 
-      Incentivos Gubernamentales
-      - Exención de tenencia vehicular (CDMX)
+      ### Incentivos Gubernamentales
+      - **Exención de tenencia vehicular** (CDMX)
       - Descuentos en peajes
       - Acceso a carriles exclusivos
       - Estacionamiento preferencial
 
-      Desventajas de los Autos Eléctricos en México
+      ## Desventajas de los Autos Eléctricos en México
 
-      Infraestructura de Carga Limitada
-      - Solo 1,200 estaciones públicas en todo el país
-      - Concentración en CDMX, Guadalajara y Monterrey
-      - Tiempo de carga: 30 minutos a 8 horas
+      ### Infraestructura de Carga Limitada
+      - **Solo 1,200 estaciones públicas** en todo el país
+      - Concentración en **CDMX, Guadalajara y Monterrey**
+      - **Tiempo de carga**: 30 minutos a 8 horas
       - Dependencia de la red eléctrica nacional
 
-      Costo Inicial Elevado
-      - Precio base: $400,000-1,500,000 MXN
-      - Seguro más caro: +30-50% vs autos convencionales
-      - Costo de instalación de cargador doméstico: $15,000-30,000 MXN
+      ### Costo Inicial Elevado
+      - **Precio base**: $400,000-1,500,000 MXN
+      - **Seguro más caro**: +30-50% vs autos convencionales
+      - **Costo de instalación de cargador doméstico**: $15,000-30,000 MXN
       - Depreciación inicial más rápida
 
-      Limitaciones de Autonomía
-      - Autonomía real: 200-500 km por carga
-      - Reducción en clima caliente: -15-20%
+      ### Limitaciones de Autonomía
+      - **Autonomía real**: 200-500 km por carga
+      - **Reducción en clima caliente**: -15-20%
       - Ansiedad de autonomía en viajes largos
       - Planificación de rutas necesaria
 
-      Dependencia de la Red Eléctrica
-      - Apagones afectan la carga
+      ### Dependencia de la Red Eléctrica
+      - **Apagones afectan la carga**
       - Tarifas eléctricas variables
       - Carga lenta en zonas rurales
       - Impacto en la red eléctrica nacional
 
-      Tiempo de Carga
-      - Carga doméstica: 6-12 horas
-      - Carga rápida: 30-60 minutos
+      ### Tiempo de Carga
+      - **Carga doméstica**: 6-12 horas
+      - **Carga rápida**: 30-60 minutos
       - Colas en estaciones públicas
       - Planificación de viajes necesaria
 

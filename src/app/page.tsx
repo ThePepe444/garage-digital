@@ -2,6 +2,7 @@ import Hero from '@/components/Hero'
 import FeaturedTips from '@/components/FeaturedTips'
 import LatestReviews from '@/components/LatestReviews'
 import CarComparisons from '@/components/CarComparisons'
+import FeaturedArticles from '@/components/FeaturedArticles'
 import TrafficStats from '@/components/TrafficStats'
 import Newsletter from '@/components/Newsletter'
 
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedTips />
       <LatestReviews />
       <CarComparisons />
+      <FeaturedArticles />
       
       {/* Sección SEO para búsquedas locales */}
       <section className="py-16 bg-gti-gray-800">
