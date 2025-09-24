@@ -3,7 +3,7 @@ export interface ContentItem {
   id: number
   title: string
   excerpt: string
-  type: 'review' | 'tip' | 'comparison'
+  type: 'review' | 'tip' | 'comparison' | 'article'
   author: string
   date: string
   category: string
@@ -105,6 +105,28 @@ export const latestNews: ContentItem[] = [
     date: '2024-01-10',
     category: 'Comparación',
     url: '/comparisons/1'
+  },
+  {
+    id: 1,
+    title: 'Ventajas y Desventajas de los Autos Eléctricos en México 2025',
+    excerpt: 'Análisis completo de los pros y contras de los vehículos eléctricos en México. Costos, infraestructura, rendimiento y consideraciones para el mercado mexicano.',
+    type: 'article',
+    author: 'Emanuel P',
+    date: '2024-02-25',
+    category: 'Autos Eléctricos',
+    image: '/images/autos-electricos-ventajas-desventajas.jpg',
+    url: '/articles/1'
+  },
+  {
+    id: 2,
+    title: 'Mejores Autos Eléctricos en México 2025: Guía de Compra',
+    excerpt: 'Ranking de los mejores vehículos eléctricos disponibles en México para 2025. Precios, autonomía, características y recomendaciones por presupuesto.',
+    type: 'article',
+    author: 'Emanuel P',
+    date: '2024-02-28',
+    category: 'Autos Eléctricos',
+    image: '/images/mejores-autos-electricos-mexico-2025.jpg',
+    url: '/articles/2'
   }
 ]
 
@@ -116,7 +138,7 @@ export const getLatestNews = (limit: number = 4): ContentItem[] => {
 }
 
 // Función para obtener noticias por tipo
-export const getNewsByType = (type: 'review' | 'tip' | 'comparison', limit: number = 3): ContentItem[] => {
+export const getNewsByType = (type: 'review' | 'tip' | 'comparison' | 'article', limit: number = 3): ContentItem[] => {
   return latestNews
     .filter(item => item.type === type)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
